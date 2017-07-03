@@ -1,0 +1,17 @@
+{
+  "name": "mainzed_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc -sm=on styles/mainzed.less styles/mainzed.css",
+    "start": "php -S localhost:8000 -t ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}

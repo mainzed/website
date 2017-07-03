@@ -1,3 +1,25 @@
+@media screen and (min-width: 1351px) and (max-width: 1600px) {
+  @import "laptop.less";
+}
+
+@media screen and (min-width: 801px) and (max-width: 1350px) {
+  @import "medium.less";
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+  @import "portrait.less";
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
+  @import "small.less";
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  @import "small.less";
+}
+
+@import "stylesheet.less";
+
 /* -------- COLORS----------*/
 @nice-blue: #5B83AD;
 

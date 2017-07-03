@@ -7,7 +7,7 @@ const CONSUMER_KEY = "v9PruNoldArYOU3dwWcgv6IfS";
 const CONSUMER_SECRET = "B2w1FTBGK5w4Cj7uqST5jo2IHaoH7NAW1VTitKWWCIUJlphIiY";
 const URL = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
 const SCREEN_NAME = '_mainzed';
-const COUNT = 10;
+const COUNT = 15;
 
 // uses the twitter api to get the latest tweets of a user and  returns an array
 // of tweets
@@ -24,7 +24,14 @@ function getTweets() {
   $json = $twitter->setGetfield($getfield)
     ->buildOauth(URL, 'GET')
     ->performRequest();
-  $tweets = json_decode($json);
 
+  if (isOAuthError($json)) {
+    echo 'Could not authenticate you! Timestamp out of bounds (check your system clock)';
+  }
+  $tweets = json_decode($json);
   return $tweets;
+}
+
+function isOAuthError($json) {
+  return strpos($json, '{"code":135,"message":"Timestamp out of bounds."}') > 0;
 }
