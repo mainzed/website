@@ -1,0 +1,134 @@
+/* -------- COLORS----------*/
+@nice-blue: #5B83AD;
+
+/* -------- COLORS----------*/
+@marginleftsmall: 10px;
+@marginleftbig: 40px;
+@fontsizebig: 20px;
+@fontsizenormal: 20px;
+@fontsizesmall: 14px;
+@fontsizeh1: 20px;
+
+@lineheightbig: 23px;
+@lineheightnormal: 24px;
+@lineheightsmall: 17px;
+@lineheightverysmall: 16px;
+
+/* ------ RASTER ------- */
+@widthraster: 100%;
+@bridgeraster: 0px;
+@paddingbody: 10px;
+@widthbox: 100%;
+@bridgebox: 50px;
+@widthorganisation: 100%;
+
+@margintitle: 0;
+
+@letterspacinguppercase: 0.07em;
+
+
+
+
+
+* {		font-family: "Arimo"; font-size: @fontsizenormal; font-weight: normal; 
+		text-decoration: none; list-style: none; color: black; margin: 0; padding: 0; letter-spacing: 0.02em;  }
+p, span, div {color: inherit; font-size: inherit; line-height: inherit; font-weight: inherit;}
+address {font-size: @fontsizesmall; line-height: @lineheightsmall; font-style: normal; }
+body {padding: 50px @paddingbody 600px @paddingbody; }
+h1 {font-size: @fontsizeh1; margin-bottom: 40px; letter-spacing: 0; float: left; margin-left: 0; border-top: 2px solid black;  }
+h2 {float: left; clear: both; margin-top: 100px; }
+a {line-height: @lineheightsmall;}
+
+.bigtext {font-size: @fontsizebig; line-height: @lineheightbig; max-width: 700px;}
+.introtext {width: 100%;}
+#introtexts {border-top: 2px solid black; padding-top: 0;}
+.inline {margin-bottom: 0px; padding-top: 0px; margin-top: 0px;}
+
+
+
+
+
+/* overline */
+#mobilenavswitch {display: block; float: right;}
+#overline {position: fixed; top: 0; background: white; height: 50px; width: calc(100% - @paddingbody * 2); padding-top: 10px;}
+#nav {float: right; clear: both; display: none; margin-top: 59px;}
+#nav li {float: right; clear: right; padding: 10px 0; }
+#nav li a {font-size: @fontsizesmall; border: none; color: black; }
+#overline {border-bottom: 2px solid black;}
+
+/* network */
+#organisationlist {float: left; clear: both; width: 100%; }
+.organisationlogos {float: right; text-align: center;  width: 33%;  max-width: none; margin-top: -20px; }
+.organisationlogos img {margin-top: 10px;}
+.organisationname {margin-bottom: 0px;  float: left; font-size: @fontsizesmall; width: 65%; border: 0; padding-top: 20px;}
+.organisation {float: left; clear: left; width: @widthorganisation; height: auto; margin-bottom: 50px; min-height: 0; max-height: 70px;}
+.floatright {margin-left: 0;}
+.organisationlogos  img {width: 110px; margin-left: -10px;}
+
+.organisationname a {border: 0;}
+.more {border-bottom: 1px solid black;}
+
+
+/* sections */
+.section {position: relative; width: 100%; height: auto; min-height: 0; padding-top: 60px; overflow: hidden; display: block; float: left; margin-left: @bridgeraster; margin-bottom: 100px;}
+#network, #staff, #imprint {clear: left;}
+#twitter {float: left; width: 100%; position: relative; padding: 0; }
+#introtext { float: left; clear: left; width: 100%; margin-top: 8px; padding-top: 20px;  }
+#symbol {font-size: 300px; text-align: center; float: left; clear: both; width: 100%;}
+
+
+
+
+/* logo */
+#intro {letter-spacing: 0;  float: left; margin-top: 4px; margin-left: 0; padding-top: 20px; width: 100%;}
+#logo, #overline span {letter-spacing: 0; }
+#logo {width: 200px; float: left; }
+#subtitle {font-size: 12px; line-height: 13px; float: left; letter-spacing: 0; margin-top: 17px; }
+#langswitch {width: 100%; float: left; clear: left; margin-top: 100px;}
+#langswitch a {float: right; clear: none; font-size: @fontsizesmall; margin-left: 20px;}
+
+
+
+
+/* twitter */
+#twitter iframe {float: none;}
+#twitter-widget-0 { 
+      width: 300px !important; 
+    }
+
+
+
+
+#imprint, #imprint br, #imprint h1 {font-size: @fontsizesmall; line-height: @lineheightsmall; max-width: 400px;}
+
+
+
+
+
+.box {width: @widthbox; min-height: 0; height: auto; float: left; font-size: @fontsizesmall; line-height: @lineheightsmall; margin: 30px 0 10px 0; margin-right: @bridgebox;}
+.personinfo {margin-top: 0;}
+.current, .activelang {font-weight: 700;}
+.clear {clear: left;}
+.float {float: left;}
+.box img {float: left; margin-bottom: 10px; }
+.person {font-weight: bold;}
+.first {float: left; clear: both;}
+#newslink {display: block;}
+
+.flyout {height: 320px !important;}
+.margin {margin-top: 100px;}
+.marginbottom {margin-bottom: 70px;}
+
+body.noscroll{
+    
+    overflow:hidden;
+}
+
+#footer {display: none;}
+
+/* logos */
+
+.hsmainzlogo {margin-top: -17px;}
+.organisationlogos img.adwlogo {margin-top: 17px;}
+.organisationlogos img.jgulogo {margin-top: 8px;}
+.organisationlogos img.ieglogo {margin-top: 16px;}

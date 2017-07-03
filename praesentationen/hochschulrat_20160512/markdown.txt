@@ -1,0 +1,106 @@
+[big] Sitzung des Hochschulrats 12. Mai 2016
+---
+[big] Hochschulübergreifender Studiengang
+[big] "Digitale Methodik in den Geistes- und Kulturwissenschaften"
+<br/><br/>
+Kai-Christian Bruhn
+---
+
+[note] Kernpunkte (1)
+* hochschulübergreifender Studiengang der Hochschule Mainz und der Johannes Gutenberg-Universität
+* federführend entwickelt vom Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften
+* Beteiligung auch der außeruniversitären Partner
+
+---
+[note] Kernpunkte (2)
+* geöffnet für B.A. Geistes- und Kulturwissenschaft und B.Sc. angewandte Informatik
+* Abschluss für alle Absolventen/innen: Master of Arts
+* angesiedelt am FB Technik und am FB 07 Geschichts- und Kulturwissenschaften
+* unter Beteiligung von drei weiteren universitären Fachbereichen
+
+---
+
+[note] Ziele
+* wissenschaftlich geschulte Mitarbeiter/innen für die Schnittstelle von Informatik und Kultur
+* Informatiker/innen entwickeln ingenieur-ferne Anwendungen
+* Geisteswissenschaftler/innen forschen mit digitaler Methodik
+
+[note] Tätigkeitsfelder
+* Lehre und Forschung
+* IT-Industrie 
+* Verlage, Bibliotheken etc.
+
+---
+[note] Leitideen/Profilbildung
+
+* Fokus auf digitaler Methodik statt Vertiefung einzelner Disziplinen
+* gemeinsame Ausbildung mit individueller Schwerpunktsetzung
+* hoher Praxisbezug im Studium durch forschungsnahe Lehre
+
+[note] Perspektiven
+ 
+* kooperatives, strukturiertes Promotionsprogramm mit der JGU
+* Positionierung der Hochschule im Feld der Digitalen Geisteswissenschaften
+
+---
+
+[image] (studiengang_verlauf.png, , )
+
+---
+[big] Aktuell
+
+---
+* Bewerbung über Portal der JGU eröffnet
+* Bewerbung vorbehaltlich der abschließenden formalen Zulassung durch die Senate
+* Informationsmaterial über Seiten der JGU und HS Mainz
+---
+[note] Informationen zum Studiengang
+* <a href="http://www.digitale-methodik.uni-mainz.de" target="_blank">Blog des Studiengangs</a>
+* <a href="https://www.hs-mainz.de/en/technik/geoinformatik-und-vermessung/digitale-methodik-in-den-geistes-und-kulturwissenschaften-master-vollzeit/index.html" target="_blank">Studiengang auf den Seiten des FB Technik</a>
+
+---
+
+[image] (twitter_neu.jpg, twitter Eintrag, "Start Wintersemester 16/17")
+
+---
+
+[image] (akkreditierungsurkunde_dmgkw.png, , )
+
+---
+<br/>
+<br/>
+[image] (mainzedlogo.png, , )
+
+---
+<br/>
+[image] (verbund.jpg, Verbundpartner mainzed , )
+
+---
+
+[note] Gründung am 9. November 2015
+[image] (gruendung.jpg, mainzed Gründung, "")
+
+---
+# Strategische Ziele und Umsetzung
+
+[note] Interne Ziele und Maßnahmen
+* Aufbau und Pflege vernetzter technischer und personeller Infrastrukturen
+* Inkubator für Forschung mit einem spezifischen Mainzer Profil
+
+[note] mainzed in der Hochschule Mainz
+
+* Akademieprofessur Digital Humanities
+* Verankerung im i3mainz
+* themenbezogene Einbeziehung der Fachbereiche Wirtschaft und Gestaltung
+
+
+---
+[note] Fishbowl 
+[image] (atmosphaere.jpg, mainzedZWEI16 - Fishbowl 'digitalität und diversität – Geisteswissenschaften im Jahr 2026', "bla")
+
+---
+
+418
+
+[big] Herzlichen Dank für die Aufmerksamkeit!
+
