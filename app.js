@@ -4,12 +4,13 @@ var isMobile = false;
 var flyoutOpen = false;
 
 $(document).ready(function() {
+  console.log('v1.3');
 
   // shortcuts
   var $window = $(window);
   var $mainzedIcon = $('#overline span');
   var $hamburgerIcon = $("#mobilenavswitch");
-  
+
   // determine if mobile
   setDeviceSize();
 
@@ -38,9 +39,9 @@ $(document).ready(function() {
 
   $(window).resize(function () {
     setDeviceSize();
-    
+
     if (isMobile) {
-      $("#nav").hide();  // hide tabs    
+      $("#nav").hide();  // hide tabs
     } else {  // desktop
       $("#nav").show();
       if (flyoutOpen && isTop()) $mainzedIcon.hide();
