@@ -30,14 +30,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="../styles/mainzed.css">
-	<!-- <link rel='stylesheet' media='screen and (min-width: 1351px) and (max-width: 1600px)' href='../styles/laptop.css' />
+	<link rel='stylesheet' media='screen and (min-width: 1351px) and (max-width: 1600px)' href='../styles/laptop.css' />
 	<link rel='stylesheet' media='screen and (min-width: 801px) and (max-width: 1350px)' href='../styles/medium.css' />
 	<link rel='stylesheet' media='screen and (min-width: 601px) and (max-width: 800px) and (orientation: portrait)' href='../styles/portrait.css'
 	/>
 	<link rel='stylesheet' media='screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape)' href='../styles/small.css'
 	/>
 	<link rel='stylesheet' media='screen and (min-width: 100px) and (max-width: 600px)' href='../styles/small.css' />
-	<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" /> -->
+	<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
 
 	<script>
 		! function (d, s, id) {
@@ -152,21 +152,8 @@
 		</div>
 
 		<div id="twitter" class="section">
-      <h1>Meldungen</h1>
-      <div>
-        <?php
-          echo count($tweets);
-          // foreach ($tweets as $tweet) {
-          //
-          //   //echo $tweet->user->id;
-          //   //echo '<span class="italic">' . $tweet->created_at . '</span>';
-          //   //echo '<p class="linktext">' . $tweet->text . '</p>';
-          // };
-        ?>
-      </div>
-
-
-
+			<a class="twitter-timeline" href="https://twitter.com/search?q=%28from%3A_mainzed%29"
+			    data-widget-id="658617257451474945">Load Twitter</a>
 		</div>
 
 		<div id="network" class="section">
