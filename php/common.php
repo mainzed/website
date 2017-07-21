@@ -1,4 +1,5 @@
 <?php
+
 if ($lang != "") {
   $lang = $lang;
 } else {
@@ -14,6 +15,7 @@ switch ($lang) {
   default:
   $lang_file = 'lang.de.php';
 }
+
 // "/mainzed/" wird zu "/"
 if ($_SERVER['REQUEST_URI']=="/") {
   $host = $_SERVER['HTTP_HOST'];
@@ -23,4 +25,5 @@ if ($_SERVER['REQUEST_URI']=="/") {
 } else {
   include_once '../php/'.$lang_file;
 }
+
 ?>

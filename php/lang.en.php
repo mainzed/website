@@ -21,14 +21,14 @@ $lang['MAINZED_NAME'] = 	'mainzed - Mainz Centre for Digitality in the Humanitie
 $lang['subtitle'] = 		'Mainz Centre for Digitality<br> in the Humanities<br> and Cultural Studies';
 
 $lang['introtext1'] = 		'mainzed, Mainz’s center for digitality in the humanities, is an open network of knowledge organisations serving as an umbrella organisation for those whose goal it is to promote and support digital research.';
-$lang['introtext2'] = 		'Our key mission is to support the creation of an infrastructure and the transformation of the humanities in the light of the digital age. Mainzed works locally and thinks globally: we set out from concrete problems, but we tie in with developments from the overarching field of digital humanities on an international scale.<br>Each year, all of mainzed\'s activities are presented in the <a href="http://www.mainzed.org/jahresbericht/"target="_blank">annual report</a> available by July 31st.';
-$lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on the key questions of the humanities and on the cultural heritage from a digital perspective.';	
+$lang['introtext2'] = 		'Our key mission is to support the creation of an infrastructure and the transformation of the humanities in the light of the digital age. Mainzed works locally and thinks globally: we set out from concrete problems, but we tie in with developments from the overarching field of digital humanities on an international scale.<br>Each year, all of mainzed\'s activities are presented in the <a href="/jahresbericht" target="_blank">annual report</a> available by July 31st.';
+$lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on the key questions of the humanities and on the cultural heritage from a digital perspective.';
 $lang['introtext4'] = 		'<span class="italic">We develop</span><br> study programmes for students and advanced training opportunities in digital methods primarily aimed at postgraduates and young researchers.';
 $lang['introtext5'] = 		'<span class="italic">We support</span><br> researchers in using digital methods for their research.';
 
 $lang['networktext'] = 		'mainzed targets researchers at all levels with its offering of a common, persistent platform facilitating exchange, the development of projects and the expansions of the research foci pursued in Mainz. The network is strengthened by organising and realising public events together. We communicate our events through <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a>.';
 
-$lang['studiengangtext'] = 		'A specific Masters Program is a prerequisite for a long-term establishment of digitality in the humanities and cultural studies in Mainz.<br>To accomplish this, mainzed took the leading role in designing and accrediting a new study program called »Digital methodology in the humanities and cultural studies«, which will be jointly offered by two universities in Mainz.<br>For more information, please visit the corresponding pages for <a href="http://www.digitale-methodik.uni-mainz.de"target="_blank">Johannes Gutenberg-Universität</a> and <a href="http://www.hs-mainz.de/en/technik/geoinformatik-und-vermessung/digitale-methodik-in-den-geistes-und-kulturwissenschaften-master-vollzeit//"target="_blank">Hochschule Mainz</a>.'; 
+$lang['studiengangtext'] = 		'A specific Masters Program is a prerequisite for a long-term establishment of digitality in the humanities and cultural studies in Mainz.<br>To accomplish this, mainzed took the leading role in designing and accrediting a new study program called »Digital methodology in the humanities and cultural studies«, which will be jointly offered by two universities in Mainz.<br>For more information, please visit the corresponding pages for <a href="http://www.digitale-methodik.uni-mainz.de"target="_blank">Johannes Gutenberg-Universität</a> and <a href="http://www.hs-mainz.de/en/technik/geoinformatik-und-vermessung/digitale-methodik-in-den-geistes-und-kulturwissenschaften-master-vollzeit//"target="_blank">Hochschule Mainz</a>.';
 
 $lang['verbundtext'] = 		'mainzed is a collaboration of six partners in research and teaching. With our forces joint, we aim at evolving our competences in the area of digital methods in the humanities.<br>Besides a research infrastructure, our spectrum spans digital methods in the area of spatial humanities, natural language processing, linguistics, digital edition, music, multimedia and web technologies for a semantic web.';
 
@@ -59,20 +59,20 @@ $lang['titlergzm'] = 'Römisch-Germanisches Zentralmuseum und Leibniz-Forschungs
 
 
 
-					        
-$lang['disclaimer'] = 		
+
+$lang['disclaimer'] =
 'Disclaimer<br><br>
 
 Accountability for content<br>
-The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents’ accuracy, 
-completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. 
-In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, 
-or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws 
+The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents’ accuracy,
+completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages.
+In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties,
+or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws
 remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
 <br><br>
 Accountability for links<br>
 Responsibility for the content of external links (to web pages of third parties) lies solely
-with the operators of the linked pages. No violations were evident to us at the time of linking. 
+with the operators of the linked pages. No violations were evident to us at the time of linking.
 Should any legal infringement become known to us, we will remove the respective link immediately.
 <br><br>
 Copyright<br>
@@ -83,7 +83,7 @@ $lang['imprintorganisations'] = 	'mainzed is an alliance between the Academy of 
 $lang['vertreten'] = 				'Represented by the directorate Prof. Dr. Kai-Christian Bruhn (director) Prof. Dr. Klaus Pietschmann (locum tenens)
 									<br><br><br>';
 $lang['tmg'] = 				'Information in accordance with section 5 TMG:';
-$lang['cc'] = 				'All content of the website of mainzed Mainz Centre for Digitality in the Humanities and Cultural Studies by mainzed is licensed under a 
+$lang['cc'] = 				'All content of the website of mainzed Mainz Centre for Digitality in the Humanities and Cultural Studies by mainzed is licensed under a
 				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a>';
 
 $lang['contactdata'] = 				'<div class="phone">
@@ -106,8 +106,8 @@ $lang['contactdata'] = 				'<div class="phone">
 									<br><br>
 									Person responsible for content in accordance with 55 Abs. 2 RStV<br>
 									Prof. Dr. Kai-Christian Bruhn<br>
-									Hochschule Mainz University of Applied Sciences<br> 
-									Lucy-Hillebrand-Straße 2<br> 
+									Hochschule Mainz University of Applied Sciences<br>
+									Lucy-Hillebrand-Straße 2<br>
 									55128 Mainz, Germany</div>';
 
 
@@ -133,7 +133,7 @@ $lang['infomees'] =			'digital editions, web development <br> (RGZM)';
 $lang['infomondorf'] =		'grammatical variation, empirical diachronic linguistics, language & gender <br> (JGU)';
 $lang['infoneovesky'] =		'medieval studies, informatics, information retrieval, digital cultural heritage, open research data <br> (AdW)';
 $lang['infoniedermueller'] ='musicology, music and media, recording analysis <br> (JGU)';
-$lang['infopagel'] =		'Human-Computer-Interaction, digital transformation, media management <br> (HS Mainz)';	
+$lang['infopagel'] =		'Human-Computer-Interaction, digital transformation, media management <br> (HS Mainz)';
 $lang['infoschrade2'] =		'History, research software engineering, semantic web <br> (AdW)';
 $lang['infoschneider'] =	'corpus linguistics, language processing, language change <br> (JGU)';
 $lang['infothiery'] =		'geoinformatics, web development, semantic modelling, linked data <br> (HS Mainz, RGZM)';
