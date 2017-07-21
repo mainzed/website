@@ -8,7 +8,7 @@ $lang = array();
 $lang['lang'] = 'en';
 $lang['PAGE_TITLE'] = 'mainzed - Mainz Centre for Digitality in the Humanities and Cultural studies';
 
-$lang['about'] = 'Center';
+$lang['about'] = 'Centre';
 $lang['news'] = 'News';
 $lang['network'] = 'Network';
 $lang['studiengang'] = 'Masters Program';
@@ -16,11 +16,10 @@ $lang['verbund'] = 'Partners';
 $lang['imprint'] = 'Legal Notice';
 
 $lang['linktext'] = 		'<br>Contribution to mainzed';
-$lang['MAINZED_NAME'] = 'mainzed - Mainz Centre for Digitality in the Humanities and Cultural studies';
 $lang['MAINZED_NAME'] = 	'mainzed - Mainz Centre for Digitality in the Humanities and Cultural Studies';
 $lang['subtitle'] = 		'Mainz Centre for Digitality<br> in the Humanities<br> and Cultural Studies';
 
-$lang['introtext1'] = 		'mainzed, Mainz’s center for digitality in the humanities, is an open network of knowledge organisations serving as an umbrella organisation for those whose goal it is to promote and support digital research.';
+$lang['introtext1'] = 		'mainzed, Mainz’s centre for digitality in the humanities, is an open network of knowledge organisations serving as an umbrella organisation for those whose goal it is to promote and support digital research.';
 $lang['introtext2'] = 		'Our key mission is to support the creation of an infrastructure and the transformation of the humanities in the light of the digital age. Mainzed works locally and thinks globally: we set out from concrete problems, but we tie in with developments from the overarching field of digital humanities on an international scale.<br>Each year, all of mainzed\'s activities are presented in the <a href="/jahresbericht" target="_blank">annual report</a> available by July 31st.';
 $lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on the key questions of the humanities and on the cultural heritage from a digital perspective.';
 $lang['introtext4'] = 		'<span class="italic">We develop</span><br> study programmes for students and advanced training opportunities in digital methods primarily aimed at postgraduates and young researchers.';
