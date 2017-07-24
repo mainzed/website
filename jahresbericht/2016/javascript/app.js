@@ -5,12 +5,14 @@ var mobile = false;
 
 $(document).ready(function() {
 
-    $(function() {
-      $("img").lazyload({
-          threshold : 200,
-          effect : "fadeIn"
-      });
-    })
+  // initialize lazyload: converts data-original attribute to src for images as soon as they
+  // are visible in the viewport
+  $(function() {
+    $("img").lazyload({
+        threshold : 200,
+        effect : "fadeIn"
+    });
+  })
 
     // initScroller();
     $("#read").addClass("readnoshift");
@@ -50,7 +52,7 @@ $(document).ready(function() {
     // Tooltip
     if(!mobile && !is_iPad){
         $('img').hover(function(e){
-            var text = $(this).next("figcaption").html();
+            var text = $(this).next().next().html();
             $('<div class="tooltip"></div>').html(text).appendTo('body');
         }, function() {
             $('.tooltip').remove();
@@ -90,16 +92,9 @@ $(document).ready(function() {
         }, scrollspeed + 80)
     });
 
-
-
-
-
-
-
     $("#ressources").click(function(e){
         e.stopPropagation();
     });
-
 
     $(document).click(function(){
        clearRessource();
@@ -137,12 +132,9 @@ $(document).ready(function() {
         e.stopPropagation();
     });
 
-
-
     // exceptions
-    $( ".picturegroup" ).each( function(){
-        console.log($(this).prev());
-    });
+    // $( ".picturegroup" ).each( function(){
+    // });
 
     // exceptions
     $( "h1" ).each( function(){
@@ -152,7 +144,6 @@ $(document).ready(function() {
     });
 
 function checkBrowserWidth(){
-
     var browserwidth = $( document ).width();
     if (browserwidth < 801){
         mobile = true;
@@ -187,8 +178,6 @@ function resetLayout(){
         }
     }
 }
-
-
 
 function showTitle(){
 
@@ -352,28 +341,29 @@ function showGlossar(clickedword){
 }
 
 function zoomPicture(clickedpicture){
-    if(!mobile){
-        resetRessource(true, false, true);
-        var source = clickedpicture.attr('src');
-        var figcaption = $('<p class="figcaption">' + clickedpicture.next("figcaption").html() + '</p>');
-        //var zoomedpicture = $("<img src='" + source + "' />");
-        //zoomedpicture.appendTo("#ressources");
-        figcaption.appendTo("#ressources");
-        $("#imagecontainer").css("background", "url(" + source + ") black");
-        $("#imagecontainer").show();
+  if (!mobile) {
+    resetRessource(true, false, true);
+    var source = clickedpicture.attr('src');
 
-        if(mobile){
-            $("#ressources").addClass("showpicturesm");
-        }
-        else {
-            $("#ressources").addClass("showpictures");
-        }
+    var figcaption = $('<p class="figcaption">' + clickedpicture.next().next().html() + '</p>');
+    // console.log(figcaption)
+    //var zoomedpicture = $("<img src='" + source + "' />");
+    //zoomedpicture.appendTo("#ressources");
+    figcaption.appendTo("#ressources");
+    $("#imagecontainer").css("background", "url(" + source + ") black");
+    $("#imagecontainer").show();
 
-        $("#navicon").addClass("white");
-        $("#closeicon").addClass("white");
-
+    if (mobile) {
+        $("#ressources").addClass("showpicturesm");
+    } else {
+        $("#ressources").addClass("showpictures");
     }
-    else {
-        clearRessource();
-    }
+
+    $("#navicon").addClass("white");
+    $("#closeicon").addClass("white");
+
+  }
+  else {
+    clearRessource();
+  }
 }
