@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-less": "lessc -sm=on styles/less/laptop.less styles/laptop.css && lessc -sm=on styles/less/mainzed.less styles/mainzed.css && lessc -sm=on styles/less/medium.less styles/medium.css && lessc -sm=on styles/less/portrait.less styles/portrait.css && lessc -sm=on styles/less/small.less styles/small.css && lessc -sm=on styles/less/stylesheet.less styles/stylesheet.css",
+    "build-less": "lessc -sm=on styles/laptop.less styles/laptop.css && lessc -sm=on styles/mainzed.less styles/mainzed.css && lessc -sm=on styles/medium.less styles/medium.css && lessc -sm=on styles/portrait.less styles/portrait.css && lessc -sm=on styles/small.less styles/small.css",
     "build": "npm run build-less",
-    "watch-less": "catw -w 'styles/less/*.less' -c 'npm run build-less'",
+    "watch-less": "catw -w 'styles/*.less' -c 'npm run build-less'",
     "watch-server": "php -S localhost:8000 -t .",
     "start": "concurrently -k --names \"PHP,Less\" --prefix-colors \"magenta.bold,blue.bold\" \"npm run watch-server\" \"npm run watch-less\""
   },
