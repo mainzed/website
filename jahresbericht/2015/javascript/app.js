@@ -3,6 +3,9 @@ var is_iPad = navigator.userAgent.match(/iPad/i) != null;
 // global var
 var mobile = false;
 
+// init hyphenator
+Hyphenator.run();
+
 $(document).ready(function() {
 
     $(function() {
