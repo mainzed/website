@@ -3,6 +3,9 @@
 var isMobile = false;
 var flyoutOpen = false;
 
+// init hyphenator
+Hyphenator.run();
+
 $(document).ready(function() {
   console.log('v1.3');
 

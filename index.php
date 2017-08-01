@@ -762,8 +762,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.0.1/Hyphenator.min.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/Hyphenator.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/patterns/de.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/patterns/en.min.js"></script>
 		<script src="../app.js"></script>
 
 	</body>
