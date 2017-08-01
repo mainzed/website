@@ -3,6 +3,9 @@ var is_iPad = navigator.userAgent.match(/iPad/i) != null;
 // global var
 var mobile = false;
 
+// init hyphenator
+Hyphenator.run();
+
 $(document).ready(function() {
 
   // initialize lazyload: converts data-original attribute to src for images as soon as they
@@ -13,7 +16,7 @@ $(document).ready(function() {
         effect : "fadeIn"
     });
   })
-
+  
     // initScroller();
     $("#read").addClass("readnoshift");
     checkBrowserWidth();
