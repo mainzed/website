@@ -18,9 +18,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // TODO: proper security using secret set as env_variable
     if ($json_obj->repository->id === $REPOSITORY_ID) {
-        $command = "sh " . getcwd() . "/" . $SHELL_SCRIPT_PATH . " 2>&1"; // 2>&1 includes stderr and stout
-        writeLog("executing shell script: " . $command);
-        $output = shell_exec($command); // record shell output
+        writeLog("discard changes, if any");
+        $output = shell_exec("git reset --hard HEAD 2>&1"); // record shell output
+        file_put_contents($LOG_FILE_PATH, $output, FILE_APPEND);
+
+        writeLog("pull latest version");
+        $output = shell_exec("git pull origin master HEAD 2>&1"); // record shell output
         file_put_contents($LOG_FILE_PATH, $output, FILE_APPEND);
     }
 }
