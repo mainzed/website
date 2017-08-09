@@ -3,7 +3,11 @@ $REPOSITORY_ID = 97840427;
 $SHELL_SCRIPT_PATH = 'deploy.sh';
 $LOG_FILE_PATH = 'deploy.log';
 
+file_put_contents($LOG_FILE_PATH, "server -> listening to /webhook_handler\n", FILE_APPEND);
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    file_put_contents($LOG_FILE_PATH, "server -> receiving new post request\n", FILE_APPEND);
+
     # Get JSON as a string
     $json_str = file_get_contents("php://input");
 
