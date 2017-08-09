@@ -4,8 +4,8 @@ DEST_DIR="/www"
 
 echo $(date) "# deploy start"
 
-echo "# go to project root folder"
-cd ..
+echo "# discard changes, if any"
+git reset --hard HEAD
 
 echo "# pull latest version"
 git pull origin master

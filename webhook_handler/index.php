@@ -7,10 +7,8 @@ function writeLog($string = null) {
     file_put_contents($GLOBALS['LOG_FILE_PATH'], "[server] " . $string . "\n", FILE_APPEND);
 }
 
-writeLog("listening to /webhook_handler");
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    writeLog("receiving new post request");
+    writeLog("POST request /webhook_handler");
 
     # Get JSON as a string
     $json_str = file_get_contents("php://input");
