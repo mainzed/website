@@ -7,7 +7,7 @@ var flyoutOpen = false;
 Hyphenator.run();
 
 $(document).ready(function() {
-  console.log('v1.3');
+  console.log('v1.4');
 
   // shortcuts
   var $window = $(window);
