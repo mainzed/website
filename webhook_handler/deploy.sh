@@ -12,8 +12,5 @@ git pull origin master
 
 # echo "compiling less to css"
 
-echo "# remove old version"
-rm -rf $DEST_DIR/*
-
 echo $(date) "# deploy end"
 echo
