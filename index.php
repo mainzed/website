@@ -73,7 +73,7 @@
 					</a>
 				</li>
 				<li id="newslink">
-					<a href="#twitter">
+					<a href="#twitter-placeholder">
 						<?php echo $lang['news']; ?>
 					</a>
 				</li>
@@ -151,12 +151,14 @@
 
 		</div>
 
+		<div id="twitter-placeholder" class="section"></div>
+
 		<div id="twitter" class="section">
 			<a class="twitter-timeline" href="https://twitter.com/search?q=%28from%3A_mainzed%29"
 			    data-widget-id="658617257451474945">Load Twitter</a>
 		</div>
 
-		<div id="network" class="section">
+		<div id="network" class="">
 	   	<h1><?php echo $lang['networkheader']; ?></h1>
 	    <p class="bigtext clear">
 	  	 	<?php echo $lang['networktext']; ?>
@@ -761,7 +763,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/Hyphenator.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/patterns/de.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Hyphenator/5.1.0/patterns/en.min.js"></script>

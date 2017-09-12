@@ -1,13 +1,16 @@
-
-
 @font-face {
-    font-family: 'mainzed_typeregular';
-    src: url('mainzedtype-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'mainzed_typeregular';
+  src: url('mainzedtype-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-    /* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-
+#twitter-placeholder {
+  height: 1px !important;
+  max-height: 1px !important;
+  min-height: 0px !important;
+  margin: 0px;
+  padding: 0px;
 }
