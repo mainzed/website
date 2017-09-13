@@ -158,7 +158,7 @@
 			    data-widget-id="658617257451474945">Load Twitter</a>
 		</div>
 
-		<div id="network" class="">
+		<div id="network" class="section">
 	   	<h1><?php echo $lang['networkheader']; ?></h1>
 	    <p class="bigtext clear">
 	  	 	<?php echo $lang['networktext']; ?>
