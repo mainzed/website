@@ -7,9 +7,8 @@ var isMobile = false
 Hyphenator.run()
 
 $(document).ready(function() {
-
-  // initialize lazyload: converts data-original attribute to src for images as soon as they
-  // are visible in the viewport
+  // initialize lazyload: converts data-original attribute to src for images as
+  // soon as they are visible in the viewport
   $(function() {
     $("img").lazyload({
       threshold : 200,
@@ -47,7 +46,7 @@ $(document).ready(function() {
   })
 
   // Tooltip
-  if (!isMobile && !is_iPad){
+  if (!isMobile && !is_iPad) {
     $('img').hover(function(e){
       var text = $(this).next().next().html()
       $('<div class="tooltip"></div>').html(text).appendTo('body')
@@ -67,107 +66,77 @@ $(window).resize(function() {
   resetLayout()
 })
 
-
-$("a:not(.external-link)").click(function(event){
-    event.preventDefault()
-    console.log($(this.hash).offset().top)
-    var scrollspeed = 1200
-    if($(window).scrollTop() - $(this.hash).offset().top < 1000){
-        console.log("small")
-        scrollspeed = 600
-    }
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, scrollspeed)
-
-    //windows phone
-    setTimeout(function(){
-        window.scrollTo(0, $(this.hash).offset().top)
-    }, scrollspeed + 80)
+$("a:not(.external-link)").click(function (event) {
+  animateScroll(event)
 })
 
-$("#ressources").click(function(e){
-    e.stopPropagation()
+$("#ressources").click(function(e) {
+  e.stopPropagation()
 })
 
-$(document).click(function(){
-    minimizeSidebar()
+$(document).click(function() {
+  minimizeSidebar()
 })
 
-$("body").click(function(){
-    minimizeSidebar()
-})
-
-$("#closeicon").click(function(){
-    minimizeSidebar()
+$('body, #closeicon').click(function() {
+  minimizeSidebar()
 })
 
 $("#nav a").click(function(){
-    if(isMobile == true){
-        minimizeSidebar()
-    }
+  if (isMobile) minimizeSidebar()
 })
 
 $('#navicon').click(function(e){
-    showTableOfContent()
-    e.stopPropagation()
+  showTableOfContent()
+  e.stopPropagation()
 })
 
 
 // Infobox
 $('.shortcut').click(function(e){
-    showGlossar($(this))
-    e.stopPropagation()
+  showGlossar($(this))
+  e.stopPropagation()
 })
 
 
 $('.picture').click(function(e){
-    zoomPicture($(this))
-    e.stopPropagation()
+  zoomPicture($(this))
+  e.stopPropagation()
 })
 
 // exceptions
-// $( ".picturegroup" ).each( function(){
-// })
-
-// exceptions
-$( "h1" ).each( function(){
-    if ($(this).next().is('p')){
-        $(this).addClass("h1ex")
-    }
+$( "h1" ).each( function() {
+  if ($(this).next().is('p')) $(this).addClass("h1ex")
 })
 
-function checkBrowserWidth(){
-  var browserwidth = $( document ).width()
-  if (browserwidth < 801){
-      isMobile = true
-  }
-  else {
-      isMobile = false
-  }
+function checkBrowserWidth() {
+  var browserwidth = $(document).width()
+  isMobile = browserwidth < 801
 }
 
-function resetLayout(){
+function resetLayout() {
   var currentclass = $("#ressources").attr("class")
-  if(isMobile){
-      if(currentclass.slice(-1) != "m" && currentclass != "showtableofcontent"){
-          currentclass = currentclass + "m"
+  var hasMobileContent = currentclass.slice(-1) === "m"
+  if (isMobile) {
+    if (!hasMobileContent && currentclass != "showtableofcontent"){
+      currentclass = currentclass + "m"
+      $("#ressources").removeClass()
+      $("#ressources").addClass(currentclass)
+    }
+    $("#read").removeClass("shiftread")
+  }
+  else {
+    if (hasMobileContent || currentclass == "showtableofcontent"){
+      if (currentclass == "showtableofcontent"){
+          $("#ressources").removeClass()
+          $("#ressources").addClass("showdefinitions")
+          $("#read").addClass("shiftread")
+      } else {
+          currentclass = currentclass.substring(0, currentclass.length - 1)
           $("#ressources").removeClass()
           $("#ressources").addClass(currentclass)
       }
-      $("#read").removeClass("shiftread")
-  }
-  else {
-      if(currentclass.slice(-1) == "m" || currentclass == "showtableofcontent"){
-          if(currentclass == "showtableofcontent"){
-              $("#ressources").removeClass()
-              $("#ressources").addClass("showdefinitions")
-              $("#read").addClass("shiftread")
-          }
-          else {
-              currentclass = currentclass.substring(0, currentclass.length - 1)
-              $("#ressources").removeClass()
-              $("#ressources").addClass(currentclass)
-          }
-      }
+    }
   }
 }
 
@@ -181,12 +150,7 @@ function showOverlay(){
   $("#titletextbg").show()
 }
 
-
-
-
-
-function minimizeSidebar(){
-
+function minimizeSidebar() {
   // remove classes
   $("#ressources").removeClass()
   $("#navicon").removeClass()
@@ -194,7 +158,6 @@ function minimizeSidebar(){
   $(".activeressource").removeClass("activeressource")
   $(".shiftread").removeClass("shiftread")
   $("#read").addClass("readnoshift")
-
 
   // clear content
   $("#ressourcestext").text("")
@@ -209,18 +172,15 @@ function minimizeSidebar(){
   $("#nav").hide()
   $("#closeicon").hide()
 
-
-  if(isMobile){
-      $("#ressources").addClass("minifiedm")
-  }
-  else {
-      $("#ressources").addClass("minified")
+  if (isMobile) {
+    $("#ressources").addClass("minifiedm")
+  } else {
+    $("#ressources").addClass("minified")
   }
   $("#navicon").show()
 }
 
-function resetRessource(navicon, nav, closeicon){
-
+function resetRessource(navIcon, nav, closeIcon){
   // remove classes
   $("#ressources").removeClass()
   $("#navicon").removeClass()
@@ -237,53 +197,31 @@ function resetRessource(navicon, nav, closeicon){
   $("#gradient").hide()
 
   // nav elements
-  if(navicon){
-      $("#navicon").show()
-  }
-  else {
-      $("#navicon").hide()
-  }
-  if(nav){
-      $("#nav").show()
-  }
-  else {
-      $("#nav").hide()
-  }
-    if(closeicon){
-      $("#closeicon").show()
-  }
-  else {
-      $("#closeicon").hide()
-  }
+  navIcon ? $("#navicon").show() : $("#navicon").hide()
+  nav ? $("#nav").show() : $("#nav").hide()
+  closeIcon ? $("#closeicon").show() : $("#closeicon").hide()
 }
 
-
-function showTableOfContent(){
-
+function showTableOfContent() {
   resetRessource(false, true, true)
-  if(isMobile){
-      $("#ressources").addClass("showtableofcontent")
-      $("#gradient").show()
-  }
-  else {
-      $("#ressources").addClass("showdefinitions")
-      $("#read").removeClass("readnoshift")
-      $("#read").addClass("shiftread")
-
-      //$("#nav").scrollTop( 300 )
+  if (isMobile) {
+    $("#ressources").addClass("showtableofcontent")
+    $("#gradient").show()
+  } else {
+    $("#ressources").addClass("showdefinitions")
+    $("#read").removeClass("readnoshift")
+    $("#read").addClass("shiftread")
   }
 
   // set active layer
   $(".activeressource").removeClass("activeressource")
   $("#nav").addClass("activeressource")
 
-
-  if($(".active").length > 0){
-      $('#nav').scrollTop(0)
-      $('#nav').scrollTop($(".active").offset().top - $("#nav").offset().top - 100)
-  }
-  else {
-      $('#nav').scrollTop(0)
+  if ($(".active").length > 0) {
+    $('#nav').scrollTop(0)
+    $('#nav').scrollTop($(".active").offset().top - $("#nav").offset().top - 100)
+  } else {
+    $('#nav').scrollTop(0)
   }
 }
 
@@ -305,7 +243,7 @@ function showGlossar(clickedword){
   $("." + identifier).clone().appendTo("#ressourcestext")
 
 
-  if(isMobile){
+  if (isMobile) {
       $("#ressources").addClass("showdefinitionsm")
       $("#gradient").show()
   }
@@ -319,9 +257,7 @@ function showGlossar(clickedword){
   $(".activeressource").removeClass("activeressource")
   $("#ressourcestext").addClass("activeressource")
 
-
-
-  if(isMobile==false){
+  if (isMobile==false){
       $("#navicon").show()
   } else {
       $("#navicon").hide()
@@ -353,4 +289,23 @@ function zoomPicture(clickedpicture){
   } else {
     minimizeSidebar()
   }
+}
+
+function animateScroll(event) {
+  event.preventDefault()
+
+  var hash = $(event.target.hash)
+  var closeToTop = $(window).scrollTop() - hash.offset().top < 1000
+
+  var scrollspeed = 1200
+  if (closeToTop) scrollspeed = 600
+
+  $('html, body').animate({
+    scrollTop: hash.offset().top
+  }, scrollspeed)
+
+  // windows phone
+  setTimeout(function() {
+    window.scrollTo(0, hash.offset().top)
+  }, scrollspeed + 80)
 }
