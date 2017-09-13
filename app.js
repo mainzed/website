@@ -26,17 +26,16 @@ $hamburgerIcon.click(function () {
   flyoutOpen ? hideflyout() : showflyout()
 })
 
-// hide flyout when flyout is open and user clicks on a section within the flyout
-$('#nav a').click(function () {
+$('#nav a').click(function (event) {
+  animateScroll(event)
   if (flyoutOpen) hideflyout()
 })
 
 $(window).resize(function () {
   setDeviceSize()
-
   if (isMobile) {
-    $('#nav').hide() // hide tabs
-  } else { // desktop
+    $('#nav').hide()
+  } else {
     $('#nav').show()
     if (flyoutOpen && isTop()) $mainzedIcon.hide()
   }
@@ -94,4 +93,23 @@ function scrollHighlighting () {
     references.parent().removeClass('current')
     references.filter('[href="#' + currentElementID + '"]').parent().addClass('current')
   })
+}
+
+function animateScroll(event) {
+  event.preventDefault()
+
+  var hash = $(event.target.hash)
+  var isNearby = $(window).scrollTop() - hash.offset().top < 1000
+
+  var speed = 1200
+  if (isNearby) speed = 600
+
+  $('html, body').animate({
+    scrollTop: hash.offset().top
+  }, speed)
+
+  // windows phone
+  setTimeout(function() {
+    window.scrollTo(0, hash.offset().top)
+  }, speed + 80)
 }

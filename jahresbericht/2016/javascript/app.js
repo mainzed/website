@@ -295,17 +295,17 @@ function animateScroll(event) {
   event.preventDefault()
 
   var hash = $(event.target.hash)
-  var closeToTop = $(window).scrollTop() - hash.offset().top < 1000
+  var isNearby = $(window).scrollTop() - hash.offset().top < 1000
 
-  var scrollspeed = 1200
-  if (closeToTop) scrollspeed = 600
+  var speed = 1200
+  if (isNearby) speed = 600
 
   $('html, body').animate({
     scrollTop: hash.offset().top
-  }, scrollspeed)
+  }, speed)
 
   // windows phone
   setTimeout(function() {
     window.scrollTo(0, hash.offset().top)
-  }, scrollspeed + 80)
+  }, speed + 80)
 }
