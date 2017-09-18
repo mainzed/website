@@ -293,6 +293,16 @@
 	        </div>
         </div>
 
+		<div class="box">
+	        <div about="#kissinger" typeof="foaf:Person">
+			        <a class="person" href="http://www.digitale-akademie.de/profil/" property="foaf:homepage">Timo Kissinger</a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infokissinger']; ?>
+			        </span>
+	        </div>
+        </div>
+ 		
         <div class="box">
 	        <div about="#kollatz" typeof="foaf:Person">
 			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/drs-thomas-kollatz.html" property="foaf:homepage">drs Thomas Kollatz</a>
@@ -325,7 +335,7 @@
 
         <div class="box">
 	        <div about="#mahmoodzada" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Mahmoodzada</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Mahmoodzada M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infomahmoodzada']; ?>
@@ -384,6 +394,16 @@
         </div>
 
         <div class="box">
+	        <div about="#pfeiffer" typeof="foaf:Person">
+			        <a class="person" href="http://www.igl.uni-mainz.de/institut/mitarbeiter/" property="foaf:homepage">Simeon Pfeiffer M.A. </a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infopfeiffer']; ?>
+			        </span>
+	        </div>
+        </div>
+
+	  <div class="box">
 	        <div about="#schrade" typeof="foaf:Person">
 			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/prof-torsten-schrade.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
 			        <br>
@@ -433,7 +453,7 @@
 	        </div>
         </div>
 
-        <div class="box marginbottom">
+        <div class="box">
 	        <div about="#wefers" typeof="foaf:Person">
 			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/stefanie.wefers" property="foaf:homepage">Dr. Stefanie Wefers</a>
 			        <br>
@@ -443,7 +463,16 @@
 	        </div>
         </div>
 
-
+		<div class="box marginbottom">
+	        <div about="#wegner" typeof="foaf:Person">
+			        <a class="person" href="http://www.igl.uni-mainz.de/institut/mitarbeiter/" property="foaf:homepage">Maximilian Wegner B.A.</a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infowegner']; ?>
+			        </span>
+	        </div>
+        </div>
+		
 	<h2><?php echo $lang['h2alumni']; ?></h2>
 
        	<div class="box first">
