@@ -87,13 +87,29 @@ em {
 /* sections */
 #mobilenavswitch {height: 25px; width: 25px; display: none; margin-top: 14px; cursor: pointer;}
 .line {height: 5px; width: 100%; background: black; margin-bottom: 5px;}
-.close {display: none; cursor: pointer;}
-.section {	height: auto; min-height: 700px; padding-top: 60px; overflow: hidden;
-			display: block; width: calc(100% - 600px); float: left;
-			margin-left: @bridgeraster; margin-bottom: 260px;
-			max-width: 1000px;
-		}
-#network, #staff, #imprint {clear: left;}
+
+.close {
+	display: none;
+	cursor: pointer;
+}
+
+.section {
+	height: auto;
+	min-height: 700px;
+	padding-top: 60px;
+	overflow: hidden;
+	display: block;
+	width: calc(100% - 600px);
+	float: left;
+	margin-left: @bridgeraster;
+	margin-bottom: 260px;
+	max-width: 1000px;
+}
+
+#network, #staff, #imprint {
+	clear: left;
+}
+
 #twitter {position: fixed; right: 0; top: 0; width: 600px; padding: 17px @paddingbody 0 0;  }
 
 #twitter-widget-0 {
@@ -171,8 +187,12 @@ em {
 .first {float: left; clear: both;}
 .function {font-size: 12px;  letter-spacing: 0.05em;  display: block; margin-bottom: 10px;  }
 .top {margin-top: 0;}
+
 .close:before {
-       content: "×"; font-size: 45px; font-weight: bold; line-height: 23px;
+  content: "×";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 23px;
 }
 
 .phone {float: left; display: block; clear: left; }
@@ -184,11 +204,7 @@ em {
 .small a {line-height: 15px;}
 .italic {font-style: italic;}
 
-
-
-
 /* logos */
-
 .hsmainzlogo {margin-top: -19px;}
 .adwlogo {margin-top: -13px;}
 .jgulogo {margin-top: -18px;}
@@ -196,10 +212,20 @@ em {
 .rgzmlogo {margin-top: -5px;}
 .igllogo {margin-top: -15px;}
 
+#newslink {
+  display: none;
+}
 
-#newslink {display: none;}
-
-
-#footer {	position: fixed; bottom: 0; padding: 5px 0; font-size: 14px; text-transform: uppercase;
-			border-top: 2px solid black; font-weight: bold; background: white;
-			z-index: 99999; width: calc(100% - @paddingbody * 2 - 600px); display: none;}
+#footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-top: 2px solid black;
+  font-weight: bold;
+  background: white;
+  z-index: 99999;
+  width: calc(100% - @paddingbody * 2 - 600px);
+  display: none;
+}
