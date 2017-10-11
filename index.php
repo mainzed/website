@@ -425,6 +425,16 @@
 	        </div>
         </div>
 
+		<div class="box">
+	        <div about="#summers" typeof="foaf:Person">
+			        <a class="person" href="https://www.geku.uni-mainz.de/studienbuero-kunstgeschichte-und-musik-wissenschaft2/" property="foaf:homepage">Stephan Summers</a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infosummers']; ?>
+			        </span>
+	        </div>
+        </div>
+		
         <div class="box">
 	        <div about="#thiery" typeof="foaf:Person">
 			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/florian.thiery" property="foaf:homepage">Florian Thiery M.Sc.</a>
