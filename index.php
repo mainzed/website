@@ -671,7 +671,7 @@
 
 			<div class="box">
 				<div about="#busch" typeof="foaf:Person">
-					<a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/alexandra_busch.html" property="foaf:homepage">Dr. Alexandra Busch</a>
+					<a class="person" href="http://web.rgzm.de/ueber-uns/team/m/alexandra_busch/?no_cache=1&cHash=a52ca17cd6b03e4b2e569c32204b573d" property="foaf:homepage">Dr. Alexandra Busch</a>
 					<br>
 					<span class="personinfo">
 		        	<?php echo $lang['infobusch']; ?>
