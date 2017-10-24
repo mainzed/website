@@ -139,8 +139,8 @@ $lang['infoschrade2'] =		'History, research software engineering, semantic web <
 $lang['infoschneider'] =	'corpus linguistics, language processing, language change <br> (JGU)';
 $lang['infosummers'] =		'musicology, radio studies digital editions <br> (JGU, AdW)';
 $lang['infothiery'] =		'geoinformatics, web development, semantic modelling, linked data <br> (HS Mainz, RGZM)';
-$lang['infounold'] =		'eeb development, semantic modelling <br> (HS Mainz)';
-$lang['infovlahovits'] =	'eeb development, musicology, content management <br> (AdW)';
+$lang['infounold'] =		'web development, semantic modelling <br> (HS Mainz)';
+$lang['infovlahovits'] =	'web development, musicology, content management <br> (AdW)';
 $lang['infowefers'] =		'archaeology, spatial and spektral documentation, knowledge representation <br> (HS Mainz)';
 $lang['infowegner'] =       'web development, digital editions, free culture & open source <br> (IGL)';
 
