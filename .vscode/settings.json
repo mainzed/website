@@ -1,5 +1,6 @@
 {
   "stylelint.enable": true,
   "css.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
+  "php.validate.executablePath": "C:\\xampp\\php"
 }

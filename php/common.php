@@ -16,12 +16,15 @@ switch ($lang) {
   $lang_file = 'lang.de.php';
 }
 
-// "/mainzed/" wird zu "/"
-if ($_SERVER['REQUEST_URI']=="/") {
+$isRoot = $_SERVER['REQUEST_URI']=="/";
+$isEvent = $_SERVER['REQUEST_URI']=="/event";
+
+if ($isRoot) {
   $host = $_SERVER['HTTP_HOST'];
   $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-  $extra = $lang;
-  header("Location: http://$host$uri/$extra");
+  header("Location: http://$host$uri/$lang");
+} else if ($isEvent) {
+  header("Location: http://localhost:8000/event.php");
 } else {
   include_once '../php/'.$lang_file;
 }
