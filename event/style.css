@@ -19,7 +19,21 @@ ul {
 }
 
 li {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+li ul li {
+  padding-bottom: 0;
+  padding-top: 10px;
+  list-style: disc;
+}
+
+li.small-text {
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .box {
@@ -48,7 +62,7 @@ img {
 }
 
 .time {
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
