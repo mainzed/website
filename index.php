@@ -424,6 +424,16 @@
 			        </span>
 	        </div>
         </div>
+		
+				<div class="box">
+	        <div about="#simon" typeof="foaf:Person">
+			        <a class="person" href="https://www.hs-mainz.de/personenverzeichnis/person/tobias-simon-1/" property="foaf:homepage">Tobias Simon M.A.</a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infosimon']; ?>
+			        </span>
+	        </div>
+        </div>
 
 		<div class="box">
 	        <div about="#summers" typeof="foaf:Person">
@@ -561,8 +571,8 @@
 				<div class="organisation floatright">
 					<!--Hochschule Mainz University of Applied Sciences-->
 					<div class="organisationname">
-						<span typeof="foaf:Organization" property="foaf:name" about="#hsmainz"> <a href="https://www.hs-mainz.de/index.php?id=6846" property="foaf:homepage">Hochschule Mainz <br>University of Applied Sciences</a></span>
-						<span class="linktext"><a href="https://www.hs-mainz.de/index.php?id=6846"><?php echo $lang['linktext']; ?></a></span>
+						<span typeof="foaf:Organization" property="foaf:name" about="#hsmainz"> <a href="https://www.hs-mainz.de/forschung/forschungtransfer/allianzen/mainzed/uebersicht/" property="foaf:homepage">Hochschule Mainz <br>University of Applied Sciences</a></span>
+						<span class="linktext"><a href="https://www.hs-mainz.de/forschung/forschungtransfer/allianzen/mainzed/uebersicht/"><?php echo $lang['linktext']; ?></a></span>
 						<span typeof="foaf:Organization" property="foaf:name" about="#i3mainz" hidden>i3mainz</span>
 						<div about="#i3mainz" hidden>
 							<a href="http://www.i3mainz.hs-mainz.de" property="foaf:homepage" hidden>http://www.i3mainz.hs-mainz.de</a>

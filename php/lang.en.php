@@ -49,7 +49,7 @@ $lang['functiondirector'] =	'Executive Director';
 $lang['functionvicedirector'] =	'locum tenens';
 $lang['functioncontact'] =	'Head of Executive Office';
 
-$lang['titleigl'] = 'Institut für Geschichtliche Landeskunde<br> an der Universität Mainz';
+$lang['titleigl'] = 'Institut für Geschichtliche Landeskunde<br> an der Universität Mainz e.V.';
 $lang['titlejgu'] = 'Johannes Gutenberg-University Mainz';
 $lang['titleadw'] = 'Academy of Sciences and Literature, Mainz';
 $lang['titleieg'] = 'Leibniz-Institute of European History';
@@ -137,6 +137,7 @@ $lang['infopagel'] =		'Human-Computer-Interaction, digital transformation, media
 $lang['infopfeiffer'] =     'wine history, statistical data analysis, content management <br> (IGL)';
 $lang['infoschrade2'] =		'History, research software engineering, semantic web <br> (AdW)';
 $lang['infoschneider'] =	'corpus linguistics, language processing, language change <br> (JGU)';
+$lang['infosimon'] =		'User Experience, Media Management, Digital Communication <br> ( HS Mainz)';
 $lang['infosummers'] =		'musicology, radio studies digital editions <br> (JGU, AdW)';
 $lang['infothiery'] =		'geoinformatics, web development, semantic modelling, linked data <br> (HS Mainz, RGZM)';
 $lang['infounold'] =		'web development, semantic modelling <br> (HS Mainz)';
