@@ -167,7 +167,7 @@
 
         <div class="box first">
 	        <div about="#bartz" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/hans-werner-bartz.html" property="foaf:homepage">Hans-Werner Bartz</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/hans-werner-bartz.html" property="foaf:homepage">Hans-Werner Bartz</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infobartz']; ?>
