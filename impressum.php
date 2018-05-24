@@ -122,11 +122,11 @@
 									Lucy-Hillebrandtstr.2<br> 
 									55128 Mainz, Germany</div>
 									
-
+									<br>
 									Der Newsletter des Mainzer Zentrums für Digitalität in den Geistes- und Kulturwissenschaften (mainzed-newsflash) 
 									Newsletter enthält Informationen zu Aktivitäten, Terminen des mainzed und seiner Partner und Hinweise auf Presseberichte 
 									zum mainzed. Hinweise zum Datenschutz, Widerruf, Protokollierung sowie der von der Einwilligung umfassten Erfolgsmessung, 
-									erhalten Sie in unserer <a href="datenschutz.html"target="_blank">Datenschutzerklärung</a>.
+									erhalten Sie in unserer <a href="datenschutz.html"target="_blank">Datenschutzerklärung</a>.<br>
 									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Anmeldung mainzed-Newsflash</a>
 									<br>
 									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Abmeldung mainzed-Newsflash</a>
