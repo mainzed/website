@@ -125,9 +125,9 @@ $lang['contactdata'] = 				'<div class="phone">
 									Newsletter enthält Informationen zu Aktivitäten, Terminen des mainzed und seiner Partner und Hinweise auf Presseberichte 
 									zum mainzed. Hinweise zum Datenschutz, Widerruf, Protokollierung sowie der von der Einwilligung umfassten Erfolgsmessung, 
 									erhalten Sie in unserer <a href="datenschutz.html"target="_blank">Datenschutzerklärung</a>.<br>
-									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Anmeldung mainzed-Newsflash</a>
+									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20für%20den%20mainzed-newsflash%20an.%20Über%20die%20Datenschutzerklärung%20des%20mainzed%20(http://mainzed.org/de/datenschutz.html)%20bin%20ich%20informiert.">Anmeldung mainzed-Newsflash</a>
 									<br>
-									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Abmeldung mainzed-Newsflash</a>
+									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20von%20dem%20mainzed-newsflash%20ab.">Abmeldung mainzed-Newsflash</a>
 									<br>';
 
 
