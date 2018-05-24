@@ -127,9 +127,9 @@
 									Newsletter enthält Informationen zu Aktivitäten, Terminen des mainzed und seiner Partner und Hinweise auf Presseberichte 
 									zum mainzed. Hinweise zum Datenschutz, Widerruf, Protokollierung sowie der von der Einwilligung umfassten Erfolgsmessung, 
 									erhalten Sie in unserer <a href="datenschutz.html"target="_blank">Datenschutzerklärung</a>.<br>
-									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Anmeldung mainzed-Newsflash</a>
+									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Liebes%mainzed%Team,%0D%0A%0D%0Ahiermit%melde%ich%mich%für%den%mainzed-newsflash%an.%Über%die%Datenschutzerklärung%des%mainzed%(http://mainzed.org/de/datenschutz.html)%bin%ich%informiert.">Anmeldung mainzed-Newsflash</a>
 									<br>
-									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Hallo%20Max,%0D%0A%0D%0Ahier%20steht%20die%20Nachricht.">Abmeldung mainzed-Newsflash</a>
+									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Liebes%mainzed%Team,%0D%0A%0D%0Ahiermit%melde%ich%mich%von%dem%mainzed-newsflash%ab.">Abmeldung mainzed-Newsflash</a>
 									<br>
 
 		
