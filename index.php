@@ -297,7 +297,7 @@
 
 		<div class="box">
 	        <div about="#kissinger" typeof="foaf:Person">
-			        <a class="person" href="http://www.digitale-akademie.de/profil/" property="foaf:homepage">Timo Kissinger</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/timo-kissinger.html" property="foaf:homepage">Timo Kissinger</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infokissinger']; ?>
@@ -397,7 +397,7 @@
 
         <div class="box">
 	        <div about="#pfeiffer" typeof="foaf:Person">
-			        <a class="person" href="http://www.igl.uni-mainz.de/institut/mitarbeiter/" property="foaf:homepage">Simeon Pfeiffer M.A. </a>
+			        <a class="person" href="https://www.igl.uni-mainz.de/institut/mitarbeiter/#c1710" property="foaf:homepage">Simeon Pfeiffer M.A. </a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infopfeiffer']; ?>
@@ -487,7 +487,7 @@
 
 		<div class="box marginbottom">
 	        <div about="#wegner" typeof="foaf:Person">
-			        <a class="person" href="http://www.igl.uni-mainz.de/institut/mitarbeiter/" property="foaf:homepage">Maximilian Wegner B.A.</a>
+			        <a class="person" href="https://www.igl.uni-mainz.de/institut/mitarbeiter/#c1646" property="foaf:homepage">Maximilian Wegner B.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infowegner']; ?>
@@ -609,8 +609,8 @@
 				<div class="organisation">
 					<!--Leibniz-Institut für Europäische Geschichte (http://www.ieg-mainz.de/)-->
 					<div class="organisationname">
-						<span typeof="foaf:Organization" property="foaf:name" about="#ieg"><a href="http://www.ieg-mainz.de" property="foaf:homepage"><?php echo $lang['titleieg']; ?></a></span>
-						<span class="linktext"><a href="http://www.ieg-mainz.de/mainzed"><?php echo $lang['linktext']; ?></a></span>
+						<span typeof="foaf:Organization" property="foaf:name" about="#ieg"><a href="http://www.ieg-mainz.de/en/mainzed" property="foaf:homepage"><?php echo $lang['titleieg']; ?></a></span>
+						<span class="linktext"><a href="http://www.ieg-mainz.de/en/mainzed"><?php echo $lang['linktext']; ?></a></span>
 					</div>
 					<div class="organisationlogos"><img alt="logo ieg" class="ieglogo" width="200" src="../logos/iegmin.png" /></div>
 				</div>
