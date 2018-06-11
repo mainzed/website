@@ -177,7 +177,7 @@
 
 		<div class="box">
 	        <div about="#cramer" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/anja_cramer.html" property="foaf:homepage">Dipl.-Ing. (FH) Anja Cramer</a>
+			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/anja-cramer/" property="foaf:homepage">Dipl.-Ing. (FH) Anja Cramer</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infocramer']; ?>
@@ -187,7 +187,7 @@
 
         <div class="box">
 	        <div about="#deicke" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/aline-deicke.html" property="foaf:homepage">Aline Deicke M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/aline-deicke.html" property="foaf:homepage">Aline Deicke M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infodeicke']; ?>
@@ -247,7 +247,7 @@
 
         <div class="box">
 	        <div about="#grüntgens" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/max-gruentgens.html" property="foaf:homepage">Max Grüntgens</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/max-gruentgens.html" property="foaf:homepage">Max Grüntgens</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infogruentgens']; ?>
@@ -257,7 +257,7 @@
 
         <div class="box">
 	        <div about="#haft" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/michael-haft.html" property="foaf:homepage">Michael Haft B.Sc.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/michael-haft.html" property="foaf:homepage">Michael Haft B.Sc.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infohaft']; ?>
@@ -267,7 +267,7 @@
 
         <div class="box">
 	        <div about="#hambuch" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/dipl-inf-fh-joerg-hambuch.html" property="foaf:homepage">Dipl. Inf. Jörg Hambuch M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dipl-inf-fh-joerg-hambuch.html" property="foaf:homepage">Dipl. Inf. Jörg Hambuch M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infohambuch']; ?>
@@ -277,7 +277,7 @@
 
         <div class="box">
 	        <div about="#heinz" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/guido_heinz.html" property="foaf:homepage">Dipl.-Ing. (FH) Guido Heinz M.Eng.</a>
+			        <a class="person" href="http://web.rgzm.de/en/no_cache/about-us/staff/staff-details/guido-heinz/" property="foaf:homepage">Dipl.-Ing. (FH) Guido Heinz M.Eng.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infoheinz']; ?>
@@ -287,7 +287,7 @@
 
         <div class="box">
 	        <div about="#kasper" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/dominik-kasper.html" property="foaf:homepage">Dominik Kasper M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dominik-kasper.html" property="foaf:homepage">Dominik Kasper M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infokasper']; ?>
@@ -307,7 +307,7 @@
  		
         <div class="box">
 	        <div about="#kollatz" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/drs-thomas-kollatz.html" property="foaf:homepage">drs Thomas Kollatz</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/drs-thomas-kollatz.html" property="foaf:homepage">drs Thomas Kollatz</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infokollatz']; ?>
@@ -317,7 +317,7 @@
 
 		<div class="box">
 	        <div about="#kuczera" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/dr-andreas-kuczera.html" property="foaf:homepage">Dr. Andreas Kuczera</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dr-andreas-kuczera.html" property="foaf:homepage">Dr. Andreas Kuczera</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infokuczera']; ?>
@@ -327,7 +327,7 @@
 
         <div class="box">
 	        <div about="#kuroczynski" typeof="foaf:Person">
-			        <a class="person" href="https://www.hs-mainz.de/hochschule/organisation/fachbereiche/fachbereich-technik/" property="foaf:homepage" >Prof. Dr.-Ing. Piotr Kuroczyński </a>
+			        <a class="person" href="http://architekturinstitut.hs-mainz.de/team/piotr_kuroczynski/" property="foaf:homepage" >Prof. Dr.-Ing. Piotr Kuroczyński</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infokuroczynski']; ?>
@@ -337,7 +337,7 @@
 
         <div class="box">
 	        <div about="#mahmoodzada" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Mahmoodzada M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Mahmoodzada M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infomahmoodzada']; ?>
@@ -347,7 +347,7 @@
 
         <div class="box">
 	        <div about="#mees" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/forschung/kompetenzbereiche/methodische-kompetenzbereiche/wissenschaftliche-it.html" property="foaf:homepage">Dr. Allard Mees</a>
+			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/allard-mees/" property="foaf:homepage">Dr. Allard Mees</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infomees']; ?>
@@ -367,7 +367,7 @@
 
         <div class="box">
 	        <div about="#neovesky" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/anna-neovesky.html" property="foaf:homepage">Anna Neovesky M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/anna-neovesky.html" property="foaf:homepage">Anna Neovesky M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infoneovesky']; ?>
@@ -407,7 +407,7 @@
 
 	  <div class="box">
 	        <div about="#schrade" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/prof-torsten-schrade.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/prof-torsten-schrade.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infoschrade2']; ?>
@@ -427,7 +427,7 @@
 		
 				<div class="box">
 	        <div about="#simon" typeof="foaf:Person">
-			        <a class="person" href="https://www.hs-mainz.de/personenverzeichnis/person/tobias-simon-1/" property="foaf:homepage">Tobias Simon M.A.</a>
+			        <a class="person" href="https://www.hs-mainz.de/personenverzeichnis/person/tobias-simon/" property="foaf:homepage">Tobias Simon M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infosimon']; ?>
@@ -467,7 +467,7 @@
 
 		<div class="box">
 	        <div about="#vlahovits" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiter/profil/frederic-von-vlahovits.html" property="foaf:homepage">Frederic von Vlahovits M.A.</a>
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/frederic-von-vlahovits.html" property="foaf:homepage">Frederic von Vlahovits M.A.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infovlahovits']; ?>
@@ -681,7 +681,7 @@
 
 			<div class="box">
 				<div about="#busch" typeof="foaf:Person">
-					<a class="person" href="http://web.rgzm.de/ueber-uns/team/m/alexandra_busch/?no_cache=1&cHash=a52ca17cd6b03e4b2e569c32204b573d" property="foaf:homepage">Dr. Alexandra Busch</a>
+					<a class="person" href="https://web.rgzm.de/no_cache/ueber-uns/team/m/alexandra-busch/" property="foaf:homepage">Dr. Alexandra Busch</a>
 					<br>
 					<span class="personinfo">
 		        	<?php echo $lang['infobusch']; ?>
@@ -701,7 +701,7 @@
 
 			<div class="box">
 				<div about="#rogge" typeof="foaf:Person">
-					<a class="person" href="http://www.geschichte.uni-mainz.de/Mittelalter/51.php" property="foaf:homepage">Univ.-Prof. Dr. Jörg Rogge</a>
+					<a class="person" href="http://www.geschichte.uni-mainz.de/Mittelalter/159.php" property="foaf:homepage">Univ.-Prof. Dr. Jörg Rogge</a>
 					<br>
 					<span class="personinfo">
 		        	<?php echo $lang['inforogge']; ?>
@@ -711,7 +711,7 @@
 
 			<div class="box">
 				<div about="#schrade" typeof="foaf:Person">
-					<a class="person" href="http://www.digitale-akademie.de/profil.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
+					<a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/prof-torsten-schrade.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
 					<br>
 					<span class="personinfo">
 		        	<?php echo $lang['infoschrade']; ?>
