@@ -28,7 +28,7 @@ $lang['introtext5'] = 		'<span class="italic">We support</span><br> researchers 
 $lang['networktext'] = 		'mainzed targets researchers at all levels with its offering of a common, persistent platform facilitating exchange, the development of projects and the expansions of the research foci pursued
 							in Mainz. The network is strengthened by organising and realising public events together.<br><br>
 							Information on our own events and projects are published via <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a> and newsflash.
-							In order to subscribe to newsflash, klick ‘<a href="http://mainzed.org/en/#imprint" target="_blank">registration</a>’.';
+							In order to subscribe to newsflash, click ‘<a href="http://mainzed.org/en/#imprint" target="_blank">registration</a>’.';
 
 $lang['studiengangtext'] = 		'A specific Masters Program is a prerequisite for a long-term establishment of digitality in the humanities and cultural studies in Mainz.<br>To accomplish this, mainzed took the leading role in designing and accrediting a new study program called »Digital methodology in the humanities and cultural studies«, which will be jointly offered by two universities in Mainz.<br>For more information, please visit the corresponding pages for <a href="http://www.digitale-methodik.uni-mainz.de"target="_blank">Johannes Gutenberg University Mainz</a> and <a href="https://www.hs-mainz.de/en/academics/degree-programs/engineering/digital-methods-in-the-humanities-and-cultural-studies-ma/overview/"target="_blank">University of Applied Sciences Mainz</a>.';
 
