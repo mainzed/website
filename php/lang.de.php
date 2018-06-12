@@ -25,7 +25,11 @@ $lang['introtext3'] = 		'<span class="italic">Eigene Forschungen</span><br> an d
 $lang['introtext4'] = 		'<span class="italic">Entwicklung</span><br> von Inhalten für Studien- und Qualifizierungsangebote zu digitalen Methoden und Fragestellungen für den wissenschaftlichen Nachwuchs in Mainz';
 $lang['introtext5'] = 		'<span class="italic">Unterstützung</span><br> von Wissenschaftlerinnen und Wissenschaftlern beim Einsatz digitaler Technologien für ihre Forschungen';
 
-$lang['networktext'] = 		'mainzed bietet Wissenschaftlerinnen und Wissenschaftlern aller Qualifizierungsstufen eine gemeinsame, persistente Plattform zum Austausch von Wissen, der Entwicklung von Projekten und dem Ausbau von Mainzer Forschungsschwerpunkten.<br><br>Mit verschiedenen öffentlichen Veranstaltungen regt mainzed zur Netzwerkbildung an. Hinweise zu eigenen Terminen und Vorhaben werden über <a href="http://www.twitter.com/_mainzed/"target="_blank">Twitter</a> und dem newsflash veröffentlicht. Zum Abonnieren des newsflash klicken Sie "<a href="http://mainzed.org/de/#imprint" target="_blank">Anmeldung</a>".';
+$lang['networktext'] = 		'mainzed bietet Wissenschaftlerinnen und Wissenschaftlern aller Qualifizierungsstufen eine gemeinsame, persistente Plattform zum Austausch von Wissen, der Entwicklung von Projekten 
+							und dem Ausbau von Mainzer Forschungsschwerpunkten.<br><br>
+							Mit verschiedenen öffentlichen Veranstaltungen regt mainzed zur Netzwerkbildung an. 
+							Hinweise zu eigenen Terminen und Vorhaben werden über <a href="http://www.twitter.com/_mainzed/"target="_blank">Twitter</a> und dem newsflash veröffentlicht. 
+							Zum Abonnieren des newsflash klicken Sie "<a href="http://mainzed.org/de/#imprint" target="_blank">Anmeldung</a>".';
 
 $lang['studiengangtext'] = 		'Voraussetzung für eine langfristige Verankerung von Digitalität in den geistes- und kulturwissenschaftlichen Disziplinen am Wissenschaftsstandort Mainz ist ein entsprechendes Studienangebot.<br><br>Das mainzed hat daher federführend die inhaltlichen Ausgestaltung und Akkreditierung des neuen, hochschulübergreifenden Masterstudiengangs "Digitale Methodik in den Geistes- und Kulturwissenschaften" umgesetzt.<br>Alle weiteren Informationen auf den Seiten der <a href="http://www.digitale-methodik.uni-mainz.de"target="_blank">Johannes Gutenberg-Universität</a> und der <a href="https://www.hs-mainz.de/studium/studiengaenge/technik/digitale-methodik-in-den-geistes-und-kulturwissenschaften-ma/uebersicht/"target="_blank">Hochschule Mainz</a>.';
 

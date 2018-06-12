@@ -25,7 +25,11 @@ $lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on 
 $lang['introtext4'] = 		'<span class="italic">We develop</span><br> study programmes for students and advanced training opportunities in digital methods primarily aimed at postgraduates and young researchers.';
 $lang['introtext5'] = 		'<span class="italic">We support</span><br> researchers in using digital methods for their research.';
 
-$lang['networktext'] = 		'mainzed targets researchers at all levels with its offering of a common, persistent platform facilitating exchange, the development of projects and the expansions of the research foci pursued in Mainz. The network is strengthened by organising and realising public events together. We communicate our events through <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a>. The newsletter of Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed-newsflash) contains information on activities, events of mainzed and its partners as well as information on press reports regarding mainzed. Notes on data protection, revocation, recording as well as performance measurement, that is included in the agreement, can be obtained in our <a href="datenschutz.html"target="_blank">privacy policy</a>.';
+$lang['networktext'] = 		'mainzed targets researchers at all levels with its offering of a common, persistent platform facilitating exchange, the development of projects and the expansions of the research foci pursued
+							in Mainz. The network is strengthened by organising and realising public events together.<br><br> We communicate our events through <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a>. 
+							The newsletter of Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed-newsflash) contains information on activities, events of mainzed and its partners as well as 
+							information on press reports regarding mainzed. To subscribe the newsletter please click "<a href="http://mainzed.org/en/#imprint" target="_blank">Subscribe</a>".
+							Notes on data protection, revocation, recording as well as performance measurement, that is included in the agreement, can be obtained in our <a href="datenschutz.html"target="_blank">privacy policy</a>.';
 
 $lang['studiengangtext'] = 		'A specific Masters Program is a prerequisite for a long-term establishment of digitality in the humanities and cultural studies in Mainz.<br>To accomplish this, mainzed took the leading role in designing and accrediting a new study program called »Digital methodology in the humanities and cultural studies«, which will be jointly offered by two universities in Mainz.<br>For more information, please visit the corresponding pages for <a href="http://www.digitale-methodik.uni-mainz.de"target="_blank">Johannes Gutenberg-Universität</a> and <a href="https://www.hs-mainz.de/en/academics/degree-programs/engineering/digital-methods-in-the-humanities-and-cultural-studies-ma/overview/"target="_blank">Hochschule Mainz</a>.';
 
@@ -107,7 +111,14 @@ $lang['contactdata'] = 				'<div class="phone">
 									Prof. Dr. Kai-Christian Bruhn<br>
 									Hochschule Mainz University of Applied Sciences<br>
 									Lucy-Hillebrand-Straße 2<br>
-									55128 Mainz, Germany</div>';
+									55128 Mainz, Germany</div>'
+									
+									<div class="clear">
+									<br>
+									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20für%20den%20mainzed-newsflash%20an.%20Über%20die%20Datenschutzerklärung%20des%20mainzed%20(http://mainzed.org/de/datenschutz.html)%20bin%20ich%20informiert.">Subscribe mainzed-Newsflash</a>
+									<br>
+									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20von%20dem%20mainzed-newsflash%20ab.">Unsubscribe mainzed-Newsflash</a>
+									</div>;
 
 
 
