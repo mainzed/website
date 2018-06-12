@@ -95,7 +95,7 @@ $lang['contactdata'] = 				'<div class="phone">
 									</div>
 									<div class="fax">
 										<div>Fax:</div>
-										<div rel="foaf:mbox" resource="tel:+49-6131-6289-1495">+49 (0) 6131 6289 1495</div>
+										<div rel="foaf:mbox" resource="tel:+49-6131-6289-1495">+49 (0)6131 6289 1495</div>
 									</div>
 									<div class="mail">
 										<div>E-Mail:</div>
