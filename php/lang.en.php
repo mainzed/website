@@ -111,7 +111,13 @@ $lang['contactdata'] = 				'<div class="phone">
 									Prof. Dr. Kai-Christian Bruhn<br>
 									Hochschule Mainz University of Applied Sciences<br>
 									Lucy-Hillebrand-Straße 2<br>
-									55128 Mainz, Germany</div>'
+									55128 Mainz, Germany</div>
+									
+									
+									<br>
+									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20für%20den%20mainzed-newsflash%20an.%20Über%20die%20Datenschutzerklärung%20des%20mainzed%20(http://mainzed.org/de/datenschutz.html)%20bin%20ich%20informiert.">Subscribe mainzed-Newsflash</a>
+									<br>
+									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20von%20dem%20mainzed-newsflash%20ab.">Unsubscribe mainzed-Newsflash</a>'
 									;
 
 
