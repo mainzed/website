@@ -117,10 +117,9 @@ $lang['contactdata'] = 				'<div class="phone">
 									information on press reports regarding mainzed. Notes on data protection, revocation, recording as well as performance measurement, that is included in the 
 									agreement, can be obtained in our <a href="datenschutz.html"target="_blank">privacy policy</a>.
 									<br>
-									<a href="mailto:newsflash@mainzed.org?subject=Anmeldung mainzed-Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20für%20den%20mainzed-newsflash%20an.%20Über%20die%20Datenschutzerklärung%20des%20mainzed%20(http://mainzed.org/de/datenschutz.html)%20bin%20ich%20informiert.">Subscribe mainzed-Newsflash</a>
+									<a href="mailto:newsflash@mainzed.org?subject=Subscribe to mainzed-Newsflash&amp;body=Dear%20mainzed%20Team,%0D%0A%0D%0AI%20hereby%20sign%20up%20for%20the%20mainzed-newsflash%20an.%20I%20am%20informed%20about%20the%20privacy%20policy%20(http://mainzed.org/en/datenschutz.html)%20of%20mainzed.">Subscribe mainzed-Newsflash</a>
 									<br>
-									<a href="mailto:ewsflash@mainzed.org?subject=Abmeldung Newsflash&amp;body=Liebes%20mainzed%20Team,%0D%0A%0D%0Ahiermit%20melde%20ich%20mich%20von%20dem%20mainzed-newsflash%20ab.">Unsubscribe mainzed-Newsflash</a>';
-
+									<a href="mailto:ewsflash@mainzed.org?subject=Unsubscribe from Newsflash&amp;body=Dear%20mainzed%20Team,%0D%0A%0D%0AI%20hereby%20withdraw%20from%20the%20mainzed-newsflash%20.">Unsubscribe mainzed-Newsflash</a>';
 
 
 $lang['infobartz'] =		'classical studies, retro digitization, automatic XML-Markup, TUSTEP <br> (AdW)';
