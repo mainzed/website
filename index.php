@@ -447,7 +447,7 @@
 		
         <div class="box">
 	        <div about="#thiery" typeof="foaf:Person">
-			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/florian.thiery" property="foaf:homepage">Florian Thiery M.Sc.</a>
+			        <a class="person" href="http://orcid.org/0000-0002-3246-3531" property="foaf:homepage">Florian Thiery M.Sc.</a>
 			        <br>
 			        <span class="personinfo">
 			        	<?php echo $lang['infothiery']; ?>
