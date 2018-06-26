@@ -156,7 +156,7 @@ $lang['infowefers'] =		'archaeology, spatial and spektral documentation, knowled
 $lang['infowegner'] =       'web development, digital editions, free culture & open source <br> (IGL)';
 
 $lang['infopaulmann'] =		'Executive Director Leibniz-Institute of European History';
-$lang['infosprenger'] =		'Head of Executive Office<br> Institut für Geschichtliche Landeskunde an der Universität Mainz e.V. and Speaker at the Ministry of Science, Further Education and Culture Rhineland-Palatinate';
+$lang['infosprenger'] =		'Head of Executive Office<br> Institut für Geschichtliche Landeskunde an der Universität Mainz e.V.<br> and Speaker at the Ministry of Science, Further Education and Culture Rhineland-Palatinate';
 $lang['infopietschmann'] =  'Institute of Art History and Musicology<br>Johannes Gutenberg-University';
 $lang['infobusch'] = 		'Executive Director<br>Departement of collections, library, archives and IT, Head of Department of Roman Archaeology<br>Römisch-Germanisches Zentralmuseum und Leibniz-Forschungsstelle für Archäologie';
 $lang['infoakademie'] =		'Academy of Sciences<br> and Literature, Mainz <br>Digital Academy';
