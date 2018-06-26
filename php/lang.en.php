@@ -127,7 +127,6 @@ $lang['infocramer'] =		'geometric documentation, 3d data, GIS / CAD <br> (RGZM)'
 $lang['infodeicke'] =		'archaeology, Frontend-Design and development, network analysis <br> (AdW)';
 $lang['infodufner'] =		'graphic design, conceptual design, UX design <br> (HS Mainz)';
 $lang['infoeitelmann'] =	'grammatical Variation, theoretical and empirical analyses of language change, orality and literacy <br> (JGU)';
-$lang['infoengel'] =		'research data management, spatial data infrastructures, semantic modeling <br> (HS Mainz)';
 $lang['infograef'] =		'mathematician and computer scientist, computer music and digital signal processing, programming language design and implementation <br> (JGU)';
 $lang['infogrund'] =		'early modern history, library and information science, digital editions <br> (IEG)';
 $lang['infogruentgens'] =	'quantitative text analysis, scholarly typesetting, digital editions, open data in the humanities <br> (AdW)';
@@ -157,7 +156,7 @@ $lang['infowefers'] =		'archaeology, spatial and spektral documentation, knowled
 $lang['infowegner'] =       'web development, digital editions, free culture & open source <br> (IGL)';
 
 $lang['infopaulmann'] =		'Executive Director Leibniz-Institute of European History';
-$lang['infosprenger'] =		'Head of Executive Office<br> Institut für Geschichtliche Landeskunde';
+$lang['infosprenger'] =		'Head of Executive Office<br> Institut für Geschichtliche Landeskunde an der Universität Mainz e.V. and Speaker at the Ministry of Science, Further Education and Culture Rhineland-Palatinate';
 $lang['infopietschmann'] =  'Institute of Art History and Musicology<br>Johannes Gutenberg-University';
 $lang['infobusch'] = 		'Executive Director<br>Departement of collections, library, archives and IT, Head of Department of Roman Archaeology<br>Römisch-Germanisches Zentralmuseum und Leibniz-Forschungsstelle für Archäologie';
 $lang['infoakademie'] =		'Academy of Sciences<br> and Literature, Mainz <br>Digital Academy';
@@ -171,5 +170,6 @@ Ehemalige
 $lang['infoculo'] =			'Institut für Angewandte Linguistik und Translatologie, Universität Leipzig';
 $lang['infopiotrowski'] =	'Section des sciences du langage et de l\'information, Université de Lausanne';
 $lang['infodressler'] =		'';
+$lang['infoengel'] =		'';
 
 ?>

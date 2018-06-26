@@ -207,23 +207,13 @@
 
        	<div class="box">
         	<div about="#eitelmann" typeof="foaf:Person">
-        		<a class="person" href="http://www.english-linguistics.uni-mainz.de/269.php" property="foaf:homepage">Dr. Matthias Eitelmann</a>
-		        <br>
-		        <span class="personinfo">
-		        	<?php echo $lang['infoeitelmann']; ?>
-		        </span>
-					</div>
-	  		</div>
-
-        <div class="box">
-        	<div about="#engel" typeof="foaf:Person">
-		        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/thomas.engel" property="foaf:homepage">Thomas Engel M.A.</a>
-		        <br>
-		        <span class="personinfo">
-		        	<?php echo $lang['infoengel']; ?>
-		        </span>
-					</div>
-	  		</div>
+					<a class="person" href="http://www.english-linguistics.uni-mainz.de/269.php" property="foaf:homepage">Dr. Matthias Eitelmann</a>
+					<br>
+					<span class="personinfo">
+						<?php echo $lang['infoeitelmann']; ?>
+					</span>
+			</div>
+	  	</div>
 
         <div class="box">
 	        <div about="#gräf" typeof="foaf:Person">
@@ -516,7 +506,17 @@
 			        </span>
 	        </div>
         </div>
-
+		
+		<div class="box">
+        	<div about="#engel" typeof="foaf:Person">
+					<a class="person" >Thomas Engel M.A.</a>
+					<br>
+					<span class="personinfo">
+						<?php echo $lang['infoengel']; ?>
+					</span>
+			</div>
+	  	</div>
+			
         <div class="box marginbottom">
 	        <div about="#piotrowski" typeof="foaf:Person">
 			        <a class="person" >Prof. Dr.-Ing. Michael Piotrowski</a>
