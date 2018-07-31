@@ -103,7 +103,7 @@ figcaption .license {padding-bottom: 50px; }
 /* start */
 .start				{ 	position: absolute; bottom: 100px; left: 10%; color: black; font-size: 20px;
 						font-style: italic; }
-#titlepicture 		{ 	width: 100%; height: 100%; display: block; background: url("../bilder/podium_mainzedZWEI18.jpg"); 
+#titlepicture 		{ 	width: 100%; height: 100%; display: block; background: url("../bilder/podium_mainzedZWEI18_4.jpg"); 
 						background-size: cover; top: 0; z-index: -1; }
 .coverdescription 	{ 	position: absolute; text-align: right; bottom: 20px; right: 20px; line-height: 14px; font-size: 12px; margin: 0; color: white;}
 
@@ -419,7 +419,7 @@ figcaption .license {padding-bottom: 50px; }
 	
 
 	.title {font-size: 32px; line-height: 30px; bottom: 50px; }
-	#titlepicture  {background-position-x: -100px;}
+	#titlepicture  {background-position-x: -250px; background-position-y: 50px;}
 
 	.citation p {font-size: 23px; line-height: 28px;}
 
