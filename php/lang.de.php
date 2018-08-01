@@ -19,8 +19,8 @@ $lang['linktext'] = 		'<br>Anteil an mainzed';
 $lang['MAINZED_NAME'] = 	'mainzed - Mainzer Zentrum für Digitalit&auml;t in den Geistes- und Kulturwissenschaften';
 $lang['subtitle'] = 		'Mainzer Zentrum<br> für Digitalität<br> in den Geistes- und<br> Kulturwissenschaften';
 
-$lang['introtext1'] = 		'Das Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften, mainzed, ist ein offenes Netzwerk zur Bündelung der digitalen Kompetenzen in den verschiedenen Einrichtungen am Wissenschaftsstandort Mainz.';
-$lang['introtext2'] = 		'Im Mittelpunkt steht die infrastrukturelle Begleitung und praktische Umsetzung der Transformation der geistes- und kulturwissenschaftlichen Disziplinen im Zuge der Digitalisierung. mainzed arbeitet dabei lokal und denkt global, indem es von konkreten Fragestellungen ausgeht und die Anknüpfung an die internationalen Entwicklungen im Feld der Digital Humanities sucht.<br>mainzed gibt über seine Aktivitäten jährlich zum 31. Juli in einem Jahresbericht (<a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>) Auskunft.';
+$lang['introtext1'] = 		'Das Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften, mainzed, ist ein offenes Netzwerk zur Bündelung der digitalen Kompetenzen am Wissenschaftsstandort Mainz.';
+$lang['introtext2'] = 		'mainzed ist in der Forschung, der Lehre und dem Wissenstransfer aktiv. Dabei stellt mainzed die Verbindung vom regionalen Kompetenznetzwerk zur aktuellen Forschung im Feld der Digital Humanities her.<br>mainzed gibt über seine Aktivitäten jährlich zum 31. Juli in einem Jahresbericht Auskunft: <a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank">2017-2018</a>';
 $lang['introtext3'] = 		'<span class="italic">Eigene Forschungen</span><br> an den Kernfragen der Geistes- und Kulturwissenschaften und zum kulturellen Erbe aus digitaler Perspektive';
 $lang['introtext4'] = 		'<span class="italic">Entwicklung</span><br> von Inhalten für Studien- und Qualifizierungsangebote zu digitalen Methoden und Fragestellungen für den wissenschaftlichen Nachwuchs in Mainz';
 $lang['introtext5'] = 		'<span class="italic">Unterstützung</span><br> von Wissenschaftlerinnen und Wissenschaftlern beim Einsatz digitaler Technologien für ihre Forschungen';
@@ -145,7 +145,7 @@ $lang['infodufner'] =		'Grafikdesign, Konzeptionelles Design, UX Design <br> (HS
 $lang['infoeitelmann'] =	'Grammatische Variation, Sprachwandel in Theorie und Empirie, Mündlichkeit und Schriftlichkeit <br> (JGU)';
 $lang['infograef'] =		'Mathematik, Informatik, Musikinformatik <br> (JGU)';
 $lang['infogrund'] =		'Geschichte der Frühen Neuzeit, Bibliotheks- und Informationswissenschaften, Digitale Editionen <br> (IEG)';
-$lang['infogruentgens'] =	'Quantitative Textanalyse, Textsatz, Digitale Edition, offene Forschungsdaten <br> (AdW)';
+$lang['infogruentgens'] =	'Quantitative Textanalyse, Textsatz, Digitale Edition, offene Forschungsdaten, Epigraphik, Geschichts- und Kulturwissenschaft<br> (AdW)';
 $lang['infohaft'] =			'Softwareentwicklung, Semantic Web <br> (AdW)';
 $lang['infohambuch'] =		'Medien- und Geoinformatik, Backend- und Frontend-Entwicklung <br> (AdW)';
 $lang['infoheinz'] =		'Datenbanken / Webanwendungen, 3D-Daten, IT-Dienste <br> (RGZM)';
