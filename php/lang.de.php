@@ -20,12 +20,13 @@ $lang['MAINZED_NAME'] = 	'mainzed - Mainzer Zentrum für Digitalit&auml;t in den
 $lang['subtitle'] = 		'Mainzer Zentrum<br> für Digitalität<br> in den Geistes- und<br> Kulturwissenschaften';
 
 $lang['introtext1'] = 		'Das Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften, mainzed, ist ein offenes Netzwerk zur Bündelung der digitalen Kompetenzen am Wissenschaftsstandort Mainz.';
-$lang['introtext2'] = 		'mainzed ist in der Forschung, der Lehre und dem Wissenstransfer aktiv. Dabei stellt mainzed die Verbindung vom regionalen Kompetenznetzwerk zur aktuellen Forschung im Feld der Digital Humanities her.<br>mainzed gibt über seine Aktivitäten jährlich zum 31. Juli in einem Jahresbericht Auskunft: <a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank">2017-2018</a>';
-$lang['introtext3'] = 		'<span class="italic">Eigene Forschungen</span><br> an den Kernfragen der Geistes- und Kulturwissenschaften und zum kulturellen Erbe aus digitaler Perspektive';
+$lang['introtext2'] = 		'mainzed ist in der Forschung, der Lehre und dem Wissenstransfer aktiv. Dabei stellt mainzed die Verbindung vom regionalen Kompetenznetzwerk zur aktuellen Forschung im Feld der Digital Humanities her.<br>mainzed gibt über seine Aktivitäten jährlich zum 31. Juli in einem Jahresbericht Auskunft: <a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank">2017-2018</a><br><br>
+							Informationsmaterial, Präsentationen und Whitepaper des mainzed finden Sie <a href="https://zenodo.org/communities/mainzed/?page=1&size=20" target="_blank">hier</a>';
+$lang['introtext3'] = 		'<span class="italic">Forschungen</span><br> an den Kernfragen der Geistes- und Kulturwissenschaften und zum kulturellen Erbe aus digitaler Perspektive sowie Unterstützung von Wissenschaftlerinnen und Wissenschaftlern beim Einsatz digitaler Technologien für ihre Forschungen ';
 $lang['introtext4'] = 		'<span class="italic">Entwicklung</span><br> von Inhalten für Studien- und Qualifizierungsangebote zu digitalen Methoden und Fragestellungen für den wissenschaftlichen Nachwuchs in Mainz';
-$lang['introtext5'] = 		'<span class="italic">Unterstützung</span><br> von Wissenschaftlerinnen und Wissenschaftlern beim Einsatz digitaler Technologien für ihre Forschungen';
+$lang['introtext5'] = 		'<span class="italic">Transfer</span><br> von Wissen und Technologien in die Wissenschaft, Wirtschaft und Gesellschaft';
 
-$lang['networktext'] = 		'mainzed bietet Wissenschaftlerinnen und Wissenschaftlern aller Qualifizierungsstufen eine gemeinsame, persistente Plattform zum Austausch von Wissen, der Entwicklung von Projekten 
+$lang['networktext'] = 		'mainzed bietet Wissenschaftlerinnen und Wissenschaftlern aller Qualifizierungsstufen eine gemeinsame Plattform zum Austausch von Wissen, der Entwicklung von Projekten 
 							und dem Ausbau von Mainzer Forschungsschwerpunkten.<br><br>
 							Mit verschiedenen öffentlichen Veranstaltungen regt mainzed zur Netzwerkbildung an. 
 							Hinweise zu eigenen Terminen und Vorhaben werden über <a href="http://www.twitter.com/_mainzed/"target="_blank">Twitter</a> und dem newsflash veröffentlicht. 
@@ -47,7 +48,6 @@ $lang['h2directors'] =		'Direktorium';
 $lang['h2advisoryboard'] =	'Wissenschaftlicher Beirat';
 $lang['h2intro'] =		'Aufgabenfelder';
 $lang['h2network'] =		'Mitglieder im Netzwerk';
-$lang['h2alumni'] =			'Ehemalige Mitglieder im Netzwerk';
 
 $lang['functiondirector'] =	'Direktor';
 $lang['functionvicedirector'] =	'Stellvertretender Direktor';

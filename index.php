@@ -484,49 +484,6 @@
 			        </span>
 	        </div>
         </div>
-		
-	<h2><?php echo $lang['h2alumni']; ?></h2>
-
-       	<div class="box first">
-       		<div about="#Čulo" typeof="foaf:Person">
-			        <a class="person" >Univ.-Prof. Dr. Oliver Čulo</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoculo']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#dressler" typeof="foaf:Person">
-			        <a class="person" >Christiane Dressler M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infodressler']; ?>
-			        </span>
-	        </div>
-        </div>
-		
-		<div class="box">
-        	<div about="#engel" typeof="foaf:Person">
-					<a class="person" >Thomas Engel M.A.</a>
-					<br>
-					<span class="personinfo">
-						<?php echo $lang['infoengel']; ?>
-					</span>
-			</div>
-	  	</div>
-			
-        <div class="box marginbottom">
-	        <div about="#piotrowski" typeof="foaf:Person">
-			        <a class="person" >Prof. Dr.-Ing. Michael Piotrowski</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infopiotrowski']; ?>
-			        </span>
-	        </div>
-        </div>
-
     </div>
 
 		<div id="studiengang" class="section reduced">
