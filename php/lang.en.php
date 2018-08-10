@@ -19,14 +19,14 @@ $lang['linktext'] = 		'<br>Contribution to mainzed';
 $lang['MAINZED_NAME'] = 	'mainzed - Mainz Centre for Digitality in the Humanities and Cultural Studies';
 $lang['subtitle'] = 		'Mainz Centre for Digitality<br> in the Humanities<br> and Cultural Studies';
 
-$lang['introtext1'] = 		'The Mainz Centre for Digitality in the Humanities and Cultural Studies, mainzed, is an open network pooling digital expertise at the scientific location Mainz.';
-$lang['introtext2'] = 		'mainzed actively works in research, teaching and the transfer of knowledge. In doing so, it connects the regional network of competence to current research in the field of digital humanities.<br>Each year, all of mainzed\'s activities are presented in the annual report which is available by 31 July: (<a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank">2017-2018</a>).<br><br>
-							You can find information, presentations and white papers of mainzed <a href="https://zenodo.org/communities/mainzed/?page=1&size=20" target="_blank">here</a>.';
+$lang['introtext1'] = 		'mainzed, Mainz’s centre for digitality in the humanities, is an open network of knowledge organisations serving as an umbrella organisation for those whose goal it is to promote and support digital research.';
+$lang['introtext2'] = 		'Our key mission is to support the creation of an infrastructure and the transformation of the humanities in the light of the digital age. Mainzed works locally and thinks globally: we set out from concrete problems, but we tie in with developments from the overarching field of digital humanities on an international scale.<br>Each year, all of mainzed\'s activities are presented in the annual report (<a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>) available by July 31st.';
 $lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on the key questions of the humanities and on the cultural heritage from a digital perspective.';
 $lang['introtext4'] = 		'<span class="italic">We develop</span><br> study programmes for students and advanced training opportunities in digital methods primarily aimed at postgraduates and young researchers.';
 $lang['introtext5'] = 		'<span class="italic">We support</span><br> researchers in using digital methods for their research.';
 
-$lang['networktext'] = 		'mainzed offers a network of scientific exchange with regard to the development of projects and research foci for scientists of all qualification levels. The network is formed by organising and realising public events together. .<br><br>
+$lang['networktext'] = 		'mainzed targets researchers at all levels with its offering of a common, persistent platform facilitating exchange, the development of projects and the expansions of the research foci pursued
+							in Mainz. The network is strengthened by organising and realising public events together.<br><br>
 							Information on our own events and projects are published via <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a> and newsflash.
 							In order to subscribe to newsflash, click ‘<a href="http://mainzed.org/en/#imprint" target="_blank">registration</a>’.';
 
@@ -129,7 +129,7 @@ $lang['infodufner'] =		'graphic design, conceptual design, UX design <br> (HS Ma
 $lang['infoeitelmann'] =	'grammatical Variation, theoretical and empirical analyses of language change, orality and literacy <br> (JGU)';
 $lang['infograef'] =		'mathematician and computer scientist, computer music and digital signal processing, programming language design and implementation <br> (JGU)';
 $lang['infogrund'] =		'early modern history, library and information science, digital editions <br> (IEG)';
-$lang['infogruentgens'] =	'quantitative text analysis, scholarly typesetting, digital editions, open data in the humanities, epigraphy, history and cultural studies <br> (AdW)';
+$lang['infogruentgens'] =	'quantitative text analysis, scholarly typesetting, digital editions, open data in the humanities <br> (AdW)';
 $lang['infohaft'] =			'software development, semantic web <br> (AdW)';
 $lang['infohambuch'] =		'media- and geoinformatics, backend and frontend development <br> (AdW)';
 $lang['infoheinz'] =		'database / web Development, 3d data, IT-services <br> (RGZM)';
