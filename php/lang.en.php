@@ -20,12 +20,13 @@ $lang['MAINZED_NAME'] = 	'mainzed - Mainz Centre for Digitality in the Humanitie
 $lang['subtitle'] = 		'Mainz Centre for Digitality<br> in the Humanities<br> and Cultural Studies';
 
 $lang['introtext1'] = 		'The Mainz Centre for Digitality in the Humanities and Cultural Studies, mainzed, is an open network pooling digital expertise at the scientific location Mainz.';
-$lang['introtext2'] = 		'mainzed is actively working in research, teaching and the transfer of knowledge. In doing so, it connects the regional network of competence to current research in the field of digital humanities.<br>Each year, all of mainzed\'s activities are presented in the annual report on 31 July(<a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank>2017-2018</a>).<br> You can find information, presentations and white papers of mainzed <a href="https://zenodo.org/communities/mainzed/?page=1&size=20" target="_blank">here</a>';
+$lang['introtext2'] = 		'mainzed is actively working in research, teaching and the transfer of knowledge. In doing so, it connects the regional network of competence to current research in the field of digital humanities.<br>Each year, all of mainzed\'s activities are presented in the annual report on 31 July(<a href="/jahresbericht/2015/" target="_blank">2015-2016</a>, <a href="/jahresbericht/2016/" target="_blank">2016-2017</a>, <a href="/jahresbericht/2017/" target="_blank">2017-2018</a><br><br> 
+							You can find information, presentations and white papers of mainzed <a href="https://zenodo.org/communities/mainzed/?page=1&size=20" target="_blank">here</a>';
 $lang['introtext3'] = 		'<span class="italic">We conduct</span><br> research on the key questions of the humanities and on the cultural heritage from a digital perspective.';
 $lang['introtext4'] = 		'<span class="italic">We develop</span><br> study programmes for students and advanced training opportunities in digital methods primarily aimed at postgraduates and young researchers.';
 $lang['introtext5'] = 		'<span class="italic">We support</span><br> researchers in using digital methods for their research.';
 
-$lang['networktext'] = 		'mainzed offers a network of scientific exchange with regard to the development of projects and research foci for scientists of all qualification levels. The network is formed by organising and realising public events together. .<br><br>
+$lang['networktext'] = 		'mainzed offers a network of scientific exchange with regard to the development of projects and research foci for scientists of all qualification levels. The network is formed by organising and realising public events together.<br><br>
 							Information on our own events and projects are published via <a href="http://www.twitter.com/_mainzed/"target="_blank">twitter</a> and newsflash.
 							In order to subscribe to newsflash, click ‘<a href="http://mainzed.org/en/#imprint" target="_blank">registration</a>’.';
 
