@@ -326,16 +326,6 @@
         </div>
 
         <div class="box">
-	        <div about="#mahmoodzada" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Mahmoodzada M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infomahmoodzada']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
 	        <div about="#mees" typeof="foaf:Person">
 			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/allard-mees/" property="foaf:homepage">Dr. Allard Mees</a>
 			        <br>
@@ -445,6 +435,17 @@
 	        </div>
         </div>
 
+		<div class="box">
+	        <div about="#trautmann" typeof="foaf:Person">
+			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Trautmann M.A.</a>
+			        <br>
+			        <span class="personinfo">
+			        	<?php echo $lang['infotrautmann']; ?>
+			        </span>
+	        </div>
+        </div>
+
+		
         <div class="box">
 	        <div about="#unold" typeof="foaf:Person">
 			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/martin.unold" property="foaf:homepage">Martin Unold M.Sc.</a>
