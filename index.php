@@ -154,9 +154,8 @@
 		<div id="twitter-placeholder" class="section"></div>
 
 		<div id="twitter" class="section">
-			<!-- <a class="twitter-timeline" href="https://twitter.com/search?q=%28from%3A_mainzed%29"
-			    data-widget-id="658617257451474945">Load Twitter</a> -->
-			<a class="twitter-timeline" href="https://twitter.com/_mainzed?ref_src=twsrc%5Etfw">Tweets by _mainzed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<!-- <a class="twitter-timeline" href="https://twitter.com/search?q=%28from%3A_mainzed%29" data-widget-id="658617257451474945">Load Twitter</a> -->
+			<a class="twitter-timeline" href="https://twitter.com/_mainzed?ref_src=twsrc%5Etfw">Tweets by _mainzed</a> <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 		</div>
 
 		<div id="network" class="section">
