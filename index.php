@@ -78,8 +78,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="#network">
-						<?php echo $lang['network']; ?>
+					<a href="#verbund">
+						<?php echo $lang['verbund']; ?>
 					</a>
 				</li>
 				<li>
@@ -88,8 +88,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="#verbund">
-						<?php echo $lang['verbund']; ?>
+					<a href="#publikation">
+						<?php echo $lang['publikation']; ?>
 					</a>
 				</li>
 				<li>
@@ -158,343 +158,42 @@
 			<a class="twitter-timeline" href="https://twitter.com/_mainzed?ref_src=twsrc%5Etfw">Tweets by _mainzed</a> <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 		</div>
 
-		<div id="network" class="section">
-	   	<h1><?php echo $lang['networkheader']; ?></h1>
+		<div id="publikation" class="section">
+	   	<h1><?php echo $lang['publikationheader']; ?></h1>
 	    <p class="bigtext clear">
-	  	 	<?php echo $lang['networktext']; ?>
+	  	 	<?php echo $lang['publikationtext']; ?>
 	    </p>
-	    	<h2><?php echo $lang['h2network']; ?></h2>
+	    	<h2><?php echo $lang['h2publikation']; ?></h2>
 
         <div class="box first">
-	        <div about="#bartz" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/hans-werner-bartz.html" property="foaf:homepage">Hans-Werner Bartz</a>
+	        <div about="#jahresbericht_2015">
+			        <a class="person" href="http://mainzed.org/jahresbericht/2015/">Jahresbericht 2015/2016</a>
 			        <br>
 			        <span class="personinfo">
-			        	<?php echo $lang['infobartz']; ?>
+			        	<?php echo $lang['info2015_2015']; ?>
 			        </span>
 	        </div>
         </div>
 
 		<div class="box">
-	        <div about="#cramer" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/anja-cramer/" property="foaf:homepage">Dipl.-Ing. (FH) Anja Cramer</a>
+	        <div about="#jahresbericht_2016">
+			        <a  class="person" href="http://mainzed.org/jahresbericht/2016/">Jahresbericht 2016/2017</a>
 			        <br>
 			        <span class="personinfo">
-			        	<?php echo $lang['infocramer']; ?>
+			        	<?php echo $lang['info2016_2017']; ?>
 			        </span>
 	        </div>
         </div>
 
         <div class="box">
-	        <div about="#deicke" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/aline-deicke.html" property="foaf:homepage">Aline Deicke M.A.</a>
+	        <div about="#jahresbericht_2017">
+			        <a class="person" href="http://mainzed.org/jahresbericht/2017/">Jahresbericht 2017/2018</a>
 			        <br>
 			        <span class="personinfo">
-			        	<?php echo $lang['infodeicke']; ?>
+			        	<?php echo $lang['info2017_2018']; ?>
 			        </span>
 	        </div>
         </div>
-
-        <div class="box">
-	        <div about="#dufner" typeof="foaf:Person">
-			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/matthias.dufner" property="foaf:homepage">Matthias Dufner B.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infodufner']; ?>
-			        </span>
-	        </div>
-        </div>
-
-       	<div class="box">
-        	<div about="#eitelmann" typeof="foaf:Person">
-					<a class="person" href="http://www.english-linguistics.uni-mainz.de/269.php" property="foaf:homepage">Dr. Matthias Eitelmann</a>
-					<br>
-					<span class="personinfo">
-						<?php echo $lang['infoeitelmann']; ?>
-					</span>
-			</div>
-	  	</div>
-
-        <div class="box">
-	        <div about="#gräf" typeof="foaf:Person">
-			        <a class="person" href="http://www.musikwissenschaft.uni-mainz.de/Musikinformatik/ag.php" property="foaf:homepage">Dr. Albert Gräf</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infograef']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#grund" typeof="foaf:Person">
-			        <a class="person" href="http://www.ieg-mainz.de/institut/personen/grund" property="foaf:homepage">Dr. Ines Grund</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infogrund']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#grüntgens" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/max-gruentgens.html" property="foaf:homepage">Max Grüntgens</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infogruentgens']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#haft" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/michael-haft.html" property="foaf:homepage">Michael Haft B.Sc.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infohaft']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#hambuch" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dipl-inf-fh-joerg-hambuch.html" property="foaf:homepage">Dipl. Inf. Jörg Hambuch M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infohambuch']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#heinz" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/en/no_cache/about-us/staff/staff-details/guido-heinz/" property="foaf:homepage">Dipl.-Ing. (FH) Guido Heinz M.Eng.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoheinz']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#kasper" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dominik-kasper.html" property="foaf:homepage">Dominik Kasper M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infokasper']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#kissinger" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/timo-kissinger.html" property="foaf:homepage">Timo Kissinger</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infokissinger']; ?>
-			        </span>
-	        </div>
-        </div>
- 		
-        <div class="box">
-	        <div about="#kollatz" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/drs-thomas-kollatz.html" property="foaf:homepage">drs Thomas Kollatz</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infokollatz']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#kuczera" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/dr-andreas-kuczera.html" property="foaf:homepage">Dr. Andreas Kuczera</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infokuczera']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#kuroczynski" typeof="foaf:Person">
-			        <a class="person" href="http://architekturinstitut.hs-mainz.de/team/piotr_kuroczynski/" property="foaf:homepage" >Prof. Dr.-Ing. Piotr Kuroczyński</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infokuroczynski']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#mees" typeof="foaf:Person">
-			        <a class="person" href="http://web.rgzm.de/no_cache/ueber-uns/team/m/allard-mees/" property="foaf:homepage">Dr. Allard Mees</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infomees']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#mondorf" typeof="foaf:Person">
-			        <a class="person" href="http://www.english-linguistics.uni-mainz.de/320.php" property="foaf:homepage">Univ.-Prof. Dr. Britta Mondorf</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infomondorf']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#neovesky" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/anna-neovesky.html" property="foaf:homepage">Anna Neovesky M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoneovesky']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#niedermueller" typeof="foaf:Person">
-			        <a class="person" href="http://www.musikwissenschaft.uni-mainz.de/musikwissenschaft/personen/niederm.htm" property="foaf:homepage">PD Dr. Peter Niedermüller</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoniedermueller']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#pagel" typeof="foaf:Person">
-			        <a class="person" href="https://www.hs-mainz.de/personenverzeichnis/person/sven-pagel/" property="foaf:homepage">Prof. Dr. Sven Pagel </a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infopagel']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#pfeiffer" typeof="foaf:Person">
-			        <a class="person" href="https://www.igl.uni-mainz.de/institut/mitarbeiter/#c1710" property="foaf:homepage">Simeon Pfeiffer M.A. </a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infopfeiffer']; ?>
-			        </span>
-	        </div>
-        </div>
-
-	  <div class="box">
-	        <div about="#schrade" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/prof-torsten-schrade.html" property="foaf:homepage">Prof. Torsten Schrade M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoschrade2']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#schneider" typeof="foaf:Person">
-			        <a class="person" href="http://www.english-linguistics.uni-mainz.de/354.php" property="foaf:homepage">Dr. Ulrike Schneider</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infoschneider']; ?>
-			        </span>
-	        </div>
-        </div>
-		
-				<div class="box">
-	        <div about="#simon" typeof="foaf:Person">
-			        <a class="person" href="https://www.hs-mainz.de/personenverzeichnis/person/tobias-simon/" property="foaf:homepage">Tobias Simon M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infosimon']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#summers" typeof="foaf:Person">
-			        <a class="person" href="https://www.geku.uni-mainz.de/studienbuero-kunstgeschichte-und-musik-wissenschaft2/" property="foaf:homepage">Stephan Summers</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infosummers']; ?>
-			        </span>
-	        </div>
-        </div>
-		
-        <div class="box">
-	        <div about="#thiery" typeof="foaf:Person">
-			        <a class="person" href="http://orcid.org/0000-0002-3246-3531" property="foaf:homepage">Florian Thiery M.Sc.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infothiery']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#trautmann" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/marjam-mahmoodzada.html" property="foaf:homepage">Marjam Trautmann M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infotrautmann']; ?>
-			        </span>
-	        </div>
-        </div>
-		
-        <div class="box">
-	        <div about="#unold" typeof="foaf:Person">
-			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/martin.unold" property="foaf:homepage">Martin Unold M.Sc.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infounold']; ?>
-					</span>
-	        </div>
-        </div>
-
-		<div class="box">
-	        <div about="#vlahovits" typeof="foaf:Person">
-			        <a class="person" href="http://www.adwmainz.de/mitarbeiterinnen/profil/frederic-von-vlahovits.html" property="foaf:homepage">Frederic von Vlahovits M.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infovlahovits']; ?>
-			        </span>
-	        </div>
-        </div>
-
-        <div class="box">
-	        <div about="#wefers" typeof="foaf:Person">
-			        <a class="person" href="https://i3mainz.hs-mainz.de/de/personal/stefanie.wefers" property="foaf:homepage">Dr. Stefanie Wefers</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infowefers']; ?>
-			        </span>
-	        </div>
-        </div>
-
-		<div class="box marginbottom">
-	        <div about="#wegner" typeof="foaf:Person">
-			        <a class="person" href="https://www.igl.uni-mainz.de/institut/mitarbeiter/#c1646" property="foaf:homepage">Maximilian Wegner B.A.</a>
-			        <br>
-			        <span class="personinfo">
-			        	<?php echo $lang['infowegner']; ?>
-			        </span>
-	        </div>
-        </div>
-    </div>
-
-		<div id="studiengang" class="section reduced">
-			<h1>
-				<?php echo $lang['studiengangheader']; ?>
-			</h1>
-
-			<p class="bigtext clear">
-				<?php echo $lang['studiengangtext']; ?>
-			</p>
-		</div>
 
 		<div id="verbund" class="section">
 			<h1>
@@ -582,6 +281,16 @@
 					<div class="organisationlogos"><img class="rgzmlogo" alt="logo rgzm" width="200" src="../logos/rgzmmin.png" /></div>
 				</div>
 			</div>
+
+			<div id="studiengang" class="section reduced">
+			<h1>
+				<?php echo $lang['studiengangheader']; ?>
+			</h1>
+
+			<p class="bigtext clear">
+				<?php echo $lang['studiengangtext']; ?>
+			</p>
+		</div>
 
 			<h2>
 				<?php echo $lang['h2directors']; ?>
