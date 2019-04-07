@@ -110,7 +110,7 @@ $lang['contactdata'] = 				'<div class="phone">
 									</div>
 									<div class="mail">
 										<div>E-Mail:</div>
-										<div><a rel="foaf:mbox" href="mailto:klammt@mainzed.org">klammt@mainzed.org</a></div>
+										<div><a rel="foaf:mbox" href="mailto:info@mainzed.org">info@mainzed.org</a></div>
 									</div>
 									<div class="website">
 										<div>Website:</div>
@@ -169,7 +169,6 @@ $lang['infothiery'] =		'Geoinformatik, Web Development, Semantische Modellierung
 $lang['infotrautmann'] =	'Historische Netzwerkforschung, Digitale Edition <br> (AdW)';
 $lang['infounold'] =		'Web Development, Semantische Modellierung <br> (HS Mainz)';
 $lang['infovlahovits'] =	'Web Development, Musikwissenschaft, Content Management <br> (AdW)';
-$lang['infowefers'] =		'Archäologie, 3D und spektrale Dokumentation, Wissensrepräsentationen <br> (HS Mainz)';
 $lang['infowegner'] =       'Web Development, Digitale Editionen, Free Culture & Open Source <br> (IGL)';
 
 $lang['infoculo'] =			'Institut für Angewandte Linguistik und Translatologie, Universität Leipzig';
@@ -187,7 +186,6 @@ $lang['infoschrade'] =		'Projektleiter Digitale Akademie<br> an der Akademie der
 $lang['inforogge'] =		'Historisches Seminar<br> Abteilung Mittelalterliche Geschichte, <br>Johannes Gutenberg-Universität Mainz <br> sowie Sprecher des Forschungsschwerpunkt Historische Kulturwissenschaften';
 $lang['infopaulmann'] =		'Direktor (geschäftsführend), <br> Abteilung für Universalgeschichte <br> am Leibniz-Institut für Europäische Geschichte';
 $lang['infosprenger'] =		'Geschäftsführer des Instituts<br> für Geschichtliche Landeskunde an der Universität Mainz e.V.<br> sowie Referent am Ministerium für Wissenschaft, Weiterbildung und Kultur Rheinland-Pfalz';
-$lang['infoklammt'] =		'i3mainz<br> Institut für raumbezogene Informations- und Messtechnik <br> Hochschule Mainz<br> University of Applied Sciences';
 $lang['infobruhn'] =		'i3mainz<br> Institut für raumbezogene Informations- und Messtechnik <br> Hochschule Mainz<br> University of Applied Sciences';
 $lang['infopietschmann'] =  'Institut für Kunstgeschichte und Musikwissenschaft,
 							Johannes Gutenberg-Universität Mainz ';
