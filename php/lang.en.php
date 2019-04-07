@@ -98,7 +98,7 @@ $lang['contactdata'] = 				'<div class="phone">
 									</div>
 									<div class="mail">
 										<div>E-Mail:</div>
-										<div><a rel="foaf:mbox" href="mailto:klammt@mainzed.org">klammt@mainzed.org</a></div>
+										<div><a rel="foaf:mbox" href="mailto:info@mainzed.org">info@mainzed.org</a></div>
 									</div>
 									<div class="website">
 										<div>Website:</div>
@@ -152,7 +152,6 @@ $lang['infothiery'] =		'geoinformatics, web development, semantic modelling, lin
 $lang['infotrautmann'] =	'prosopographical network, digital editions <br> (AdW)';
 $lang['infounold'] =		'web development, semantic modelling <br> (HS Mainz)';
 $lang['infovlahovits'] =	'web development, musicology, content management <br> (AdW)';
-$lang['infowefers'] =		'archaeology, spatial and spektral documentation, knowledge representation <br> (HS Mainz)';
 $lang['infowegner'] =       'web development, digital editions, free culture & open source <br> (IGL)';
 
 $lang['infopaulmann'] =		'Executive Director Leibniz-Institute of European History';
@@ -171,5 +170,6 @@ $lang['infoculo'] =			'Institut für Angewandte Linguistik und Translatologie, U
 $lang['infopiotrowski'] =	'Section des sciences du langage et de l\'information, Université de Lausanne';
 $lang['infodressler'] =		'';
 $lang['infoengel'] =		'';
+$lang['infowefers'] =		'';
 
 ?>
