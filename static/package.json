@@ -1,0 +1,30 @@
+{
+  "name": "mainzed_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-less": "lessc -sm=on styles/laptop.less styles/laptop.css && lessc -sm=on styles/mainzed.less styles/mainzed.css && lessc -sm=on styles/medium.less styles/medium.css && lessc -sm=on styles/portrait.less styles/portrait.css && lessc -sm=on styles/small.less styles/small.css",
+    "build": "npm run build-less",
+    "watch-less": "catw -w 'styles/*.less' -c 'npm run build-less'",
+    "watch-server": "php -S localhost:8000 -t .",
+    "start": "concurrently -k --names \"PHP,Less\" --prefix-colors \"magenta.bold,blue.bold\" \"npm run watch-server\" \"npm run watch-less\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "catw": "^1.0.1",
+    "concurrently": "^3.5.0",
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "less": "^2.7.2",
+    "stylelint": "^8.1.1",
+    "stylelint-config-recommended": "^1.0.0"
+  }
+}

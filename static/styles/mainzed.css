@@ -1,0 +1,451 @@
+/* -------- COLORS----------*/
+/* -------- COLORS----------*/
+/* ------ RASTER ------- */
+/*----- INTROTEXT -----*/
+br {
+  line-height: 0;
+}
+* {
+  font-family: "Arimo";
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.03em;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */
+}
+a,
+p,
+span,
+div {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.address {
+  float: left;
+  clear: left;
+  margin: 40px 0 40px 0;
+  font-style: normal;
+}
+address {
+  font-size: 15px;
+  line-height: 19px;
+  float: left;
+  clear: left;
+  font-style: normal;
+}
+body {
+  padding: 50px 60px 600px 60px;
+}
+h1 {
+  font-size: 21px;
+  margin-bottom: 50px;
+  border-top: 3px solid black;
+  float: left;
+  margin-left: calc((100% / 3 - 50px) + 50px);
+  margin-left: 0;
+  font-weight: bold;
+  padding-top: 20px;
+  width: 100%;
+  letter-spacing: 0;
+}
+h2 {
+  float: left;
+  font-size: 15px;
+  font-weight: normal;
+  clear: both;
+  margin: 140px 0 20px 0;
+  letter-spacing: 0.05em;
+  padding-top: 10px;
+  width: 100%;
+  color: black;
+  border-top: 1px solid black;
+}
+a {
+  line-height: 20px;
+}
+em {
+  font-weight: bold;
+}
+.bigtext {
+  font-size: 21px;
+  line-height: 24px;
+  max-width: 500px;
+  float: left;
+  clear: left;
+  margin: 20px 0;
+  font-weight: bold;
+  letter-spacing: 0em;
+}
+/* network */
+#organisationlist {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 80px;
+}
+.organisationlogos {
+  float: left;
+  text-align: center;
+  width: 16%;
+  max-width: 150px;
+  margin-top: -10px;
+}
+.organisationlogos img {
+  margin-bottom: 30px;
+}
+.organisationname {
+  width: 60%;
+  padding-top: 0;
+  display: block;
+  float: left;
+  font-size: 15px;
+  border: 0;
+}
+.organisation {
+  float: left;
+  width: 48%;
+  height: auto;
+  min-height: 140px;
+  padding: 5px 0;
+  margin-right: 4%;
+}
+.floatright {
+  margin-left: 0;
+  margin-right: 0;
+}
+.organisationname a {
+  border: 0;
+}
+.organisationlogos img {
+  width: 110px;
+  margin-left: -10px;
+}
+.more {
+  border-bottom: 1px solid black;
+}
+.linktext {
+  font-weight: bold;
+  letter-spacing: 0;
+}
+/* overline */
+#overline {
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 99999;
+  border-bottom: 3px solid black;
+  height: 50px;
+  width: calc(100% - 60px * 2 - 600px);
+  padding-top: 10px;
+  max-width: 1000px;
+}
+#nav {
+  float: right;
+  margin-top: 22px;
+  display: block;
+}
+#nav li {
+  float: left;
+  margin-left: 20px;
+}
+#nav li a {
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  display: block;
+}
+#nav li.current a {
+  color: black;
+}
+#overline span {
+  display: none;
+  margin-top: 13px;
+  float: left;
+}
+#top {
+  position: absolute;
+  top: 0;
+}
+/* sections */
+#mobilenavswitch {
+  height: 25px;
+  width: 25px;
+  display: none;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.line {
+  height: 5px;
+  width: 100%;
+  background: black;
+  margin-bottom: 5px;
+}
+.close {
+  display: none;
+  cursor: pointer;
+}
+.section {
+  height: auto;
+  min-height: 700px;
+  padding-top: 60px;
+  overflow: hidden;
+  display: block;
+  width: calc(100% - 600px);
+  float: left;
+  margin-left: 0px;
+  margin-bottom: 260px;
+  max-width: 1000px;
+}
+#network,
+#staff,
+#imprint {
+  clear: left;
+}
+#twitter {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 600px;
+  padding: 17px 60px 0 0;
+}
+#twitter-widget-0 {
+  min-height: 800px !important;
+}
+.introtext {
+  float: left;
+  width: 45%;
+  margin-top: 6px;
+  margin-right: 5%;
+}
+#introtexts {
+  border-top: 3px solid black;
+  float: left;
+  clear: left;
+  width: 100%;
+  margin-top: 9px;
+  padding-top: 10px;
+}
+/* neu Sarah */
+.jbtext {
+  float: left;
+  clear: left;
+  font-size: 15px;
+  max-width: 500px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+}
+.jbtext a {
+  text-decoration: underline;
+}
+.bigtext a {
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.reduced {
+  min-height: 350px;
+}
+#symbol {
+  font-family: "mainzed_typeregular";
+  font-size: 300px;
+  text-align: center;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* logo */
+#intro {
+  letter-spacing: 0;
+  float: left;
+  margin-top: 4px;
+  margin-left: 0;
+  padding-top: 30px;
+  width: calc(100% - 600px);
+}
+#logo,
+#overline span {
+  font-family: "mainzed_typeregular";
+  letter-spacing: 0;
+}
+#logo {
+  width: 214px;
+  float: left;
+  margin-left: -1px;
+}
+#subtitle {
+  font-size: 12.5px;
+  line-height: 14px;
+  float: left;
+  clear: left;
+  letter-spacing: 0;
+  margin-top: 18px;
+  font-weight: bold;
+}
+#langswitch {
+  width: 250px;
+  margin-top: 180px;
+  float: right;
+}
+#langswitch a {
+  float: right;
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: gray;
+  border: 0;
+}
+#langswitch a.activelang {
+  color: black;
+}
+/* twitter */
+#twitter iframe {
+  float: right;
+}
+#imprint,
+#imprint h1 {
+  font-size: 15px;
+  line-height: 19px;
+  max-width: 400px;
+  margin-left: 0;
+}
+#imprint p {
+  float: left;
+  clear: left;
+}
+#imprint a {
+  text-decoration: underline;
+}
+#imprint h1 {
+  float: left;
+}
+.box {
+  width: calc(100% / 3 - 50px);
+  min-height: 140px;
+  float: left;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.personinfo {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 11px;
+  letter-spacing: 0.05em;
+  display: block;
+}
+.current,
+.activelang {
+  color: black;
+  font-weight: bold;
+}
+.clear {
+  clear: left;
+}
+.float {
+  float: left;
+}
+.box img {
+  float: left;
+  margin-bottom: 10px;
+}
+.person {
+  font-weight: bold;
+}
+.first {
+  float: left;
+  clear: both;
+}
+.function {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 10px;
+}
+.top {
+  margin-top: 0;
+}
+.close:before {
+  content: "×";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 23px;
+}
+.phone {
+  float: left;
+  display: block;
+  clear: left;
+}
+.fax {
+  float: left;
+  clear: left;
+}
+.mail {
+  float: left;
+  clear: left;
+}
+.website {
+  float: left;
+  clear: left;
+}
+.phone div,
+.fax div,
+.mail div,
+.website div {
+  float: left;
+  clear: none;
+  min-width: 80px;
+}
+.small {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+}
+.small a {
+  line-height: 15px;
+}
+.italic {
+  font-style: italic;
+}
+/* logos */
+.hsmainzlogo {
+  margin-top: -19px;
+}
+.adwlogo {
+  margin-top: -13px;
+}
+.jgulogo {
+  margin-top: -18px;
+}
+.ieglogo {
+  margin-top: -12px;
+}
+.rgzmlogo {
+  margin-top: -5px;
+}
+.igllogo {
+  margin-top: -15px;
+}
+#newslink {
+  display: none;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-top: 2px solid black;
+  font-weight: bold;
+  background: white;
+  z-index: 99999;
+  width: calc(100% - 60px * 2 - 600px);
+  display: none;
+}
