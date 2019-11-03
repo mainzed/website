@@ -4,8 +4,6 @@ this version of the mainzed-website is no longer suppported. We leave the code f
 
 Project moved to https://gitlab.rlp.net
 
-
-
 ~~## Setup~~
 
 ~~Run `git clone https://github.com/mainzed/website.git` to create a local copy of this repository.~~
